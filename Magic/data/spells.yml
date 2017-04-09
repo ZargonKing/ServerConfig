@@ -526,10 +526,10 @@ permafrost:
 regenerate:
   cast_count: 0
   last_cast: 0
-tosurvival:
+warpunlock:
   cast_count: 0
   last_cast: 0
-warpunlock:
+tosurvival:
   cast_count: 0
   last_cast: 0
 curse:

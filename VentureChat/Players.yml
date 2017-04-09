@@ -215,4 +215,28 @@ players:
     filter: true
     notifications: true
     nickname: §5[Avatar] §rZargon_King
-    date: 2017/Apr/09 05:38:07
+    date: 2017/Apr/09 06:53:57
+    spy: false
+    commandspy: false
+    rangedspy: false
+    buttons: true
+    messagetoggle: true
+  fa2547f0-1a80-31b7-865f-608431804ad8:
+    name: Hirati
+    current: Global
+    ignores: ''
+    listen: Global
+    mutes: ''
+    blockedcommands: ''
+    mail: ''
+    host: false
+    party: ''
+    filter: true
+    notifications: true
+    nickname: §4Hirati
+    spy: false
+    commandspy: false
+    rangedspy: false
+    buttons: true
+    messagetoggle: true
+    date: 2017/Apr/09 06:53:17
