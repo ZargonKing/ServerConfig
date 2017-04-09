@@ -1,7 +1,7 @@
 # These first 4 aren't configurable
 issues: "https://github.com/IntellectualSites/PlotSquared/issues"
 wiki: "https://github.com/IntellectualSites/PlotSquared/wiki"
-version: "3.5.0"
+version: "3.5.1"
 platform: "Bukkit"
 # Show additional information in console
 debug: true
@@ -40,7 +40,7 @@ enabled-components:
   # Send anonymous usage statistics. Bukkit only setting.
   metrics: true
   # Expiry will clear old or simplistic plots
-  plot-expiry: false
+  plot-expiry: true
   # Processes chunks (trimming, or entity/tile limits) 
   chunk-processor: false
   # Kill mobs or vehicles on roads
@@ -48,6 +48,8 @@ enabled-components:
   kill-road-vehicles: false
   # Notify a player of any missed comments upon plot entry
   comment-notifier: false
+  # Let player's claim entire worlds with PlotSquared
+  worlds: false
   # Actively purge invalid database entries
   database-purger: false
   # Delete plots when a player is banned
@@ -102,18 +104,23 @@ done:
   # Restrict building when a plot is done
   restrict-building: false
   # The limit being how many plots a player can claim
-  counts-towards-limit: true
+  counts-towards-limit: false
 
 web:
-  # We are already hosting a web interface for you:
+  # The web interface for schematics
+  #  - All schematics are anonymous and private
+  #  - Downloads can be deleted by the user
+  #  - Supports plot uploads, downloads and saves
   url: "http://empcraft.com/plots/"
-  # The ip that will show up in the interface
-  server-ip: "your.ip.here"
+  # The web interface for assets
+  #  - All schematics are organized and public
+  #  - Assets can be searched, selected and downloaded
+  assets: "http://empcraft.com/assetpack/"
 
 # Configure the paths that will be used
 paths:
   schematics: "schematics"
-  bo3: "bo3"
+  bo3: "BO3"
   scripts: "scripts"
   templates: "templates"
   translations: "translations"
@@ -141,7 +148,7 @@ auto-clear:
   task1:
     threshold: 1
     required-plots: -1
-    confirmation: true
+    confirmation: false
     days: 7
     worlds: 
     - "*"

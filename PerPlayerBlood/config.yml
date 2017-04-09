@@ -8,12 +8,39 @@
 # PPB.Enabled-On-First-Join: Will enable the blood if player never played before.
 # PPB.Enabled-On-Join: Ignore if player has blood disabled and enable on join.
 PPB:
-  Blood-MaterialList:
-  - SKELETON:REDSTONE_WIRE
-  - ZOMBIE:REDSTONE_BLOCK
-  - PLAYER:REDSTONE_BLOCK
-  Default-Material: REDSTONE_BLOCK
+  Default-Material: REDSTONE_WIRE
   All-Damage-Mode: 'true'
+  Max-View-Distance: '12.0'
+  Effect-Multiplier: '2'
+  EffectX: '0'
+  EffectY: '1'
+  EffectZ: '0'
+  Messages:
+    enabled: '&aBlood effect enabled!'
+    disabled: '&cBlood effect disabled!'
+    no-permission: '&cInsufficient permissions.'
+  Blood-MaterialList:
+  - PLAYER:REDSTONE_WIRE
+  - PIGZOMBIE:PURPER_BLOCK
+  - ZOMBIE:RAILS
+  - CREEPER:SLIME_BLOCK
+  - ENDERMAN:PURPUR_BLOCK
+  - PIG:REDSTONE_WIRE
+  - COW:REDSTONE_WIRE
+  - SQUID:COAL_BLOCK
+  - CHICKEN:REDSTONE_WIRE
+  - SHEEP:REDSTONE_WIRE
+  Entities:
+  - SKELETON
+  - ZOMBIE
+  - CREEPER
+  - PIGZOMBIE
+  - ENDERMAN
+  - PIG
+  - COW
+  - SQUID
+  - CHICKEN
+  - SHEEP
   Enabled-On-Join: 'false'
   Enabled-On-First-Join: 'true'
   MySQL:
@@ -23,16 +50,3 @@ PPB:
     Port: '3306'
     User: user
     Password: password
-  Max-View-Distance: '12.0'
-  Effect-Multiplier: '2'
-  EffectX: '0'
-  EffectY: '1'
-  EffectZ: '0'
-  Entities:
-  - SKELETON
-  - ZOMBIE
-  - CREEPER
-  Messages:
-    enabled: '&aBlood effect enabled!'
-    disabled: '&cBlood effect disabled!'
-    no-permission: '&cInsufficient permissions.'

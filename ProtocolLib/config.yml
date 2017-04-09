@@ -22,7 +22,7 @@ global:
   debug: false
   
   # Whether or not to print a stack trace for every warning
-  detailed error: false
+  detailed error: true
   
   # The engine used by the filter command
   script engine: JavaScript

@@ -1,75 +1,28 @@
-#  _  ____            _             _ _   _  #
-# (_)/ ___|___  _ __ | |_ _ __ ___ | | | | | #
-# | | |   / _ \| '_ \| __| '__/ _ \| | | | | #
-# | | |__| (_) | | | | |_| | | (_) | | |_| | #
-# |_|\____\___/|_| |_|\__|_|  \___/|_|\___/  #
-#                                            #
-##############################################
-# Developed by FireBreath15
-# 
-# This is iControlU's configuration file. When making changes,
-# remember to save the file and restart your server. If you ever
-# run into issues, please post your question and any relevant
-# information onto Spigot's Discussion tab.
-# 
+#iControlU Configuration File
+#Developed by FireBreath15
 
-####################
-# Max Control Time #
-####################
-# Number of seconds a player can be controlled in one session. Set to 0 for unlimited time.
-maxControlTime: 30
+maxControlTime: 60
+#Maximum amount of time (in seconds) a player can be controlled in one session. Set to 0 for unlimited time.
 
-############
-# Cooldown #
-############
-# Number of seconds a player must wait between controlling players.
-cooldown: 60
+cooldown: 10
+#Amount of time (in seconds) a player must wait between controlling players. Set to 0 for no cooldown.
 
-#################
-# Show Messages #
-#################
-# Notify the target player that they are being controlled.
-showMessages: false
+showMessages: true
+#Notify the target player that they are being controlled [true/false]
 
-################
-# Max Distance #
-################
-# The maximum distance (in blocks) the victim can be from the controller
-# NOTE: This only works if "allowFreeCam" below is set to TRUE.
-maxdistance: 10
+maxdistance: 50
+#The maximum distance (in blocks) the victim can be from the controller.
+#NOTE: This only works if "allowFreeCam" below is set to TRUE.
+#WARNING: High numbers may result in server lag.
 
-###############
-# Use Recipes #
-###############
-# Allow players to craft specialized helmets that alter Control Mode
-userecipes: true
+userecipes: false
+#Allow players to craft specialized helmets that alter player control [true/false].
 
-#################
-# Allow Freecam #
-#################
-# Allow victims to move freely during Control Mode
-allowFreeCam: true
+allowFreeCam: false
+#Allow victim players to move freely while they are being controlled [true/false].
 
-###################
-# Hide Controller #
-###################
-# Once Control Mode has ended, this hides the controller for 10 seconds
 hideController: true
+#Hides the controller during Control Mode. Set to FALSE only if you're using a different vanish plugin.
 
-##########################
-# Control Nearest Radius #
-##########################
-# The radius to search in when using "/icu controlnearest"
 maxRadius: 50
-
-#################
-# View Disguise #
-#################
-# Allows the controller to view their player disguise.
-viewDisguise: false
-
-#################
-# Control Sound #
-#################
-# Play a sound to players within 30 blocks when Control Mode begins. Valid sounds can be found at https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
-playSound: NONE
+#The maximum distance (in blocks) to search for nearby players when using "/icu controlnearest"
