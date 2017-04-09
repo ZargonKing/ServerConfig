@@ -202,3 +202,17 @@ players:
     notifications: true
     nickname: bellpepper23
     date: 2017/Mar/01 22:48:41
+  da4db28f-13e4-3267-a943-239c31e4ee80:
+    name: Zargon_King
+    current: Global
+    ignores: ''
+    listen: Global
+    mutes: ''
+    blockedcommands: ''
+    mail: ''
+    host: false
+    party: ''
+    filter: true
+    notifications: true
+    nickname: §5[Avatar] §rZargon_King
+    date: 2017/Apr/09 05:38:07

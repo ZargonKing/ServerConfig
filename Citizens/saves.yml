@@ -24,7 +24,7 @@ npc:
       owner:
         owner: Tektronic
         uuid: 87fb3c6c-5ff6-4bf6-b326-992c6137ea12
-    traitnames: inventory,poses,mounttrait,spawned,type,age,owner,slimesize,gravity,location
+    traitnames: type,inventory,age,spawned,location,poses,owner,slimesize,gravity,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -74,7 +74,7 @@ npc:
       owner:
         owner: Tektronic
         uuid: 28556dea-667d-409f-b2ff-fb4177a20ff2
-    traitnames: inventory,poses,mounttrait,spawned,type,age,owner,slimesize,location,gravity
+    traitnames: type,inventory,location,spawned,age,poses,owner,slimesize,gravity,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -113,7 +113,7 @@ npc:
       owner:
         owner: Tektronic
         uuid: 87fb3c6c-5ff6-4bf6-b326-992c6137ea12
-    traitnames: inventory,poses,mounttrait,spawned,type,age,owner,slimesize,gravity,location
+    traitnames: type,inventory,location,spawned,age,poses,owner,slimesize,gravity,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -152,7 +152,7 @@ npc:
       owner:
         owner: Tektronic
         uuid: 87fb3c6c-5ff6-4bf6-b326-992c6137ea12
-    traitnames: inventory,poses,mounttrait,spawned,type,age,owner,slimesize,gravity,location
+    traitnames: type,inventory,age,spawned,location,poses,owner,slimesize,gravity,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -184,7 +184,7 @@ npc:
       owner:
         owner: Tektronic
         uuid: 87fb3c6c-5ff6-4bf6-b326-992c6137ea12
-    traitnames: inventory,mounttrait,spawned,type,owner,lookclose,location,gravity
+    traitnames: type,inventory,location,spawned,owner,lookclose,gravity,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -216,7 +216,7 @@ npc:
       owner:
         owner: Tektronic
         uuid: 87fb3c6c-5ff6-4bf6-b326-992c6137ea12
-    traitnames: inventory,mounttrait,spawned,type,owner,lookclose,location,gravity
+    traitnames: type,inventory,location,spawned,owner,lookclose,gravity,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -244,7 +244,7 @@ npc:
       owner:
         owner: RoboCode
         uuid: 87fb3c6c-5ff6-4bf6-b326-992c6137ea12
-    traitnames: inventory,mounttrait,spawned,type,owner,location
+    traitnames: type,inventory,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -276,7 +276,7 @@ npc:
       owner:
         owner: RoboCode
         uuid: 87fb3c6c-5ff6-4bf6-b326-992c6137ea12
-    traitnames: inventory,mounttrait,spawned,type,owner,lookclose,gravity,location
+    traitnames: type,inventory,spawned,location,owner,lookclose,gravity,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -308,7 +308,7 @@ npc:
       owner:
         owner: RoboCode
         uuid: 87fb3c6c-5ff6-4bf6-b326-992c6137ea12
-    traitnames: inventory,mounttrait,spawned,type,owner,lookclose,gravity,location
+    traitnames: type,inventory,spawned,location,owner,lookclose,gravity,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -340,7 +340,7 @@ npc:
       owner:
         owner: RoboCode
         uuid: 87fb3c6c-5ff6-4bf6-b326-992c6137ea12
-    traitnames: inventory,mounttrait,spawned,type,owner,lookclose,gravity,location
+    traitnames: type,inventory,spawned,location,owner,lookclose,gravity,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -396,7 +396,7 @@ npc:
       owner:
         owner: God_Doesnt_Exist
         uuid: 87fb3c6c-5ff6-4bf6-b326-992c6137ea12
-    traitnames: inventory,equipment,mounttrait,spawned,type,owner,lookclose,location
+    traitnames: type,inventory,location,spawned,owner,equipment,lookclose,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -453,7 +453,7 @@ npc:
       owner:
         owner: God_Doesnt_Exist
         uuid: 87fb3c6c-5ff6-4bf6-b326-992c6137ea12
-    traitnames: inventory,equipment,mounttrait,spawned,type,owner,lookclose,location
+    traitnames: type,inventory,spawned,location,owner,equipment,lookclose,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -488,7 +488,7 @@ npc:
       owner:
         owner: xSp4rkz
         uuid: cb871f86-94e5-4bf3-a78e-42f73c2215c4
-    traitnames: mounttrait,spawned,type,age,owner,lookclose,wolfmodifiers,location
+    traitnames: type,wolfmodifiers,location,age,spawned,owner,lookclose,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -515,7 +515,7 @@ npc:
       owner:
         owner: xSp4rkz
         uuid: cb871f86-94e5-4bf3-a78e-42f73c2215c4
-    traitnames: mounttrait,spawned,type,owner,lookclose,location
+    traitnames: type,location,spawned,owner,lookclose,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -546,7 +546,7 @@ npc:
       owner:
         owner: xSp4rkz
         uuid: cb871f86-94e5-4bf3-a78e-42f73c2215c4
-    traitnames: mounttrait,spawned,type,owner,location
+    traitnames: type,spawned,location,owner,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -577,7 +577,7 @@ npc:
       owner:
         owner: xSp4rkz
         uuid: cb871f86-94e5-4bf3-a78e-42f73c2215c4
-    traitnames: mounttrait,spawned,type,owner,lookclose,location
+    traitnames: type,spawned,location,owner,lookclose,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -616,7 +616,7 @@ npc:
       owner:
         owner: xSp4rkz
         uuid: cb871f86-94e5-4bf3-a78e-42f73c2215c4
-    traitnames: mounttrait,spawned,type,age,owner,lookclose,wolfmodifiers,location
+    traitnames: type,wolfmodifiers,location,age,spawned,owner,lookclose,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -638,7 +638,7 @@ npc:
         realisticlooking: false
       location:
         world: newminigamehub
-        x: '1.8126'
+        x: '1.8125'
         y: '96.0'
         z: '26.4466'
         yaw: '92.10000610351562'
@@ -647,7 +647,7 @@ npc:
       owner:
         owner: xSp4rkz
         uuid: cb871f86-94e5-4bf3-a78e-42f73c2215c4
-    traitnames: mounttrait,spawned,type,owner,lookclose,location
+    traitnames: type,spawned,location,owner,lookclose,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -676,7 +676,7 @@ npc:
       owner:
         owner: xSp4rkz
         uuid: cb871f86-94e5-4bf3-a78e-42f73c2215c4
-    traitnames: mounttrait,spawned,type,age,owner,profession,lookclose,location
+    traitnames: type,spawned,age,location,owner,profession,lookclose,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -709,7 +709,7 @@ npc:
       owner:
         owner: Tektronic
         uuid: 87fb3c6c-5ff6-4bf6-b326-992c6137ea12
-    traitnames: inventory,poses,mounttrait,spawned,type,owner,location,gravity
+    traitnames: type,inventory,spawned,location,poses,owner,gravity,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -742,7 +742,7 @@ npc:
       owner:
         owner: Tektronic
         uuid: 87fb3c6c-5ff6-4bf6-b326-992c6137ea12
-    traitnames: inventory,poses,mounttrait,spawned,type,owner,location,gravity
+    traitnames: type,inventory,spawned,location,poses,owner,gravity,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -775,7 +775,7 @@ npc:
       owner:
         owner: Tektronic
         uuid: 28556dea-667d-409f-b2ff-fb4177a20ff2
-    traitnames: inventory,poses,mounttrait,spawned,type,owner,location,gravity
+    traitnames: type,inventory,location,spawned,poses,owner,gravity,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -808,7 +808,7 @@ npc:
       owner:
         owner: Tektronic
         uuid: 87fb3c6c-5ff6-4bf6-b326-992c6137ea12
-    traitnames: inventory,poses,mounttrait,spawned,type,owner,gravity,location
+    traitnames: type,inventory,spawned,location,poses,owner,gravity,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -842,7 +842,7 @@ npc:
       owner:
         owner: Tektronic
         uuid: 87fb3c6c-5ff6-4bf6-b326-992c6137ea12
-    traitnames: inventory,poses,mounttrait,spawned,type,owner,gravity,location
+    traitnames: type,inventory,spawned,location,poses,owner,gravity,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -876,7 +876,7 @@ npc:
       owner:
         owner: Tektronic
         uuid: bd6f6222-0b75-4698-8c83-fa1ca2afb2e9
-    traitnames: inventory,poses,mounttrait,spawned,type,owner,location,gravity
+    traitnames: type,inventory,spawned,location,poses,owner,gravity,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
