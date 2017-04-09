@@ -1,7 +1,7 @@
 # These first 4 aren't configurable
 issues: "https://github.com/IntellectualSites/PlotSquared/issues"
 wiki: "https://github.com/IntellectualSites/PlotSquared/wiki"
-version: "3.5.1"
+version: "3.5.0"
 platform: "Bukkit"
 # Show additional information in console
 debug: true
@@ -48,8 +48,6 @@ enabled-components:
   kill-road-vehicles: false
   # Notify a player of any missed comments upon plot entry
   comment-notifier: false
-  # Let player's claim entire worlds with PlotSquared
-  worlds: false
   # Actively purge invalid database entries
   database-purger: false
   # Delete plots when a player is banned
@@ -107,15 +105,10 @@ done:
   counts-towards-limit: false
 
 web:
-  # The web interface for schematics
-  #  - All schematics are anonymous and private
-  #  - Downloads can be deleted by the user
-  #  - Supports plot uploads, downloads and saves
+  # We are already hosting a web interface for you:
   url: "http://empcraft.com/plots/"
-  # The web interface for assets
-  #  - All schematics are organized and public
-  #  - Assets can be searched, selected and downloaded
-  assets: "http://empcraft.com/assetpack/"
+  # The ip that will show up in the interface
+  server-ip: "your.ip.here"
 
 # Configure the paths that will be used
 paths:

@@ -4606,7 +4606,7 @@ worlds:
     bedRespawn: 'false'
     worldBlacklist: []
     environment: NORMAL
-    seed: '2818272918790537512'
+    seed: '3989293537980501389'
     generator: PlotSquared
     playerLimit: '-1'
     allowFlight: 'false'
