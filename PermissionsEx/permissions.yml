@@ -1,5 +1,5 @@
 groups:
-  default:
+  Civillian:
     options:
       default: true
     permissions:
