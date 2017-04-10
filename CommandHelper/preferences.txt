@@ -7,9 +7,6 @@ case-sensitive=true
 #The base directory that scripts can read and write to. If left blank, then the default of the server directory will be used. This setting affects functions like include and read.
 base-dir=
 
-#This value is not used in CommandHelper
-allow-shell-commands=true
-
 #If set to false, the Debug class of functions will do nothing.
 allow-debug-logging=false
 

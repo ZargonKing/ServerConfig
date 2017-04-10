@@ -196,7 +196,7 @@ venturegui:
     command: '/removemessage {hash} true'
     slot: 7
     
-guiicon: ''
+guiicon: '&c [✓]'
 guitext: '&cOpen Moderation GUI'
 guirows: 1
 

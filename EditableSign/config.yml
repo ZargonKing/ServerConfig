@@ -24,6 +24,9 @@ WriteCoolDown: 0
 # log .. if this is true, the author and changed content will be push to the log
 Logging: false
 
+# if this option is "true" you will be in the edit mode by default
+DefaultInEdit: false
+
 #
 BlacklistReplacement: "**"
 Blacklist:

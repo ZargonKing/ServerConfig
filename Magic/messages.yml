@@ -9,7 +9,7 @@
 # keys you do not provide in this file.
 #
 # To see the current default builtin configs, look in this folder:
-# https://github.com/elBukkit/MagicPlugin/tree/master/src/main/resources/defaults/messages
+# https://github.com/elBukkit/MagicPlugin/tree/master/Magic/src/main/resources/defaults/messages
 #
 # For customization help see: 
 # https://github.com/elBukkit/MagicPlugin/wiki/Customization
@@ -22,7 +22,7 @@
 # Use http://www.yamllint.com if you have issues with your config, make sure not to use tabs!
 # 
 
-# Change name of Skill Points
+# Change name of Spell Points
 # sp:
 #     name: "&e$amount &6Academic Credits"
 # costs:
@@ -34,50 +34,3 @@
 #   missile:
 #     name: Zap
 #     description: Zap somebody!
-
-spells:
-  push:
-    name: Rictusempra
-    description: Push your opponents back a little bit
-  disarm:
-    name: Expelliarmus
-    description: Disarm your opponent
-  kill:
-    name: Avadakedavra
-    description: Killing Curse... enough said
-  torture:
-    name: Crucio
-    description: Tortures your opponents
-  pull:
-    name: Accio
-    description: Pulls things towards you
-  fling:
-    name: Ascendio
-    description: Sends you flying in the direction you cast
-  flare:
-    name: Periculum
-    description: Shoots flares
-  stun:
-    name: Stupefy
-    description: Stuns your opponent
-  reflect:
-    name: Protego
-    description: Blocks incoming projectiles
-  wound:
-    name: Sectumsempra
-    description: Wounds your target
-  petrify:
-    name: Petrificus Totalus
-    description: Petrifies your target
-  lift:
-    name: Levicorpus
-    description: Lifts your opponent into the air
-  fire:
-    name: Incendio
-    description: Lights fire from a distance
-  fireball:
-    name: Confringo
-    description: Shoots a fireball out of your wand
-  blink:
-    name: Apparate
-    description: Teleport where you point your wand

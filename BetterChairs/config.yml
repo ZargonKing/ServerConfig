@@ -48,7 +48,7 @@ Enable Stairs Block:
 - spruce_wood_stairs
 - wood_stairs
 - purpur_stairs
-Use slab: true
+Use slab: false
 Enable Slab Block:
 - stone_slab
 - sandstone_slab
@@ -75,7 +75,7 @@ AutoTurn: true
 Distance of the stairs: 2
 Need to sign or chair on each side: false
 Send message if the Chairs need sign or chair: false
-No item in hand: false
+No item in hand: true
 Regen need permission: false
 Regen when sit: false
 Amplifier: 1

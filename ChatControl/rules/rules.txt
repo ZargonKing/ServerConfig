@@ -1,65 +1,34 @@
 # -------------------------------------------------------------------------------
-# Here you can create your own rules for chat that will apply
-# for following aspects of the game: commands, chat, signs, books and items
+# This is the implementation of ChatControl's rule engine codenamed ChatCeaser
 #
-# [NOTICE] Files by default contain examples that you can safely remove or change.
-# -------------------------------------------------------------------------------
-#
-# Operators:
-# match <regex> (A valid regular expression string to match the message.)
-# id <number/string> (Assign an id/name to the rule. Used in messages and handlers. Not mandatory.)
-# require perm <permission> [message] (Only execute the rule if the player has specified permission.
-#                                      An optional parameter [message] is the no permission message.)
-# ignore string <string/regex> (If the message matches given string it will be ignored.)
-# ignore event <chat/commands/signs/book|item> (If the rule triggers on specified event it will be ignored.)
+# It accepts following operators (The <> is the parameter you'll specify)
+# match <regex> (A valid regular expression to match player's message.)
+# id <number/string> (Assign an id/name to the rule. Used in messages and handlers.)
+# ignore string <string/regex> (If the message matches the given string it will be ignored.)
+# ignore event <chat/commands/signs> (If the rule triggers on specified event it will be ignored.)
 # ignore perm <permission> (A permission to bypass the rule.)
-# ignore gamemode <survival/creative/adventure/spectator/0/1/2/3> (Gamemodes to be ignored. Separate by | to add multiple gamemodes.)
-# ignore usernames (Rule will ignore the names of the players online. Can degrade performance when having over 100 players.)
-# ignore chatdisplay <setName> (If chat ignorer is enabled and a rule catches the message, players who ignore the set won't see the message.)
-# ignore world <world|anotherWorld> (Worlds the rule will be ineffective on. Separate by | to add multiple worlds.)
-# before strip <regex> (A valid regular expression used to strip specified characters before the message is checked.)
-# before replace <regex> with <message> (A regular expression used to replace characters with other characters before the message is checked.)
+# ignore gamemode <survival/creative/adventure/spectator/0/1/2/3> (Gamemodes to be ignored. Separate by | to add multiple values.)
+# before strip <regex> (A regular expression used to strip specified characters before the message is checked.)
+# before replace <regex> with <message> (A regular expression to replace characters with other characters before the message check.)
 # then replace <replacement|replacement2> (A string that replaces only the part of the checked message that matches the match.)
 #                                         (Chosen randomly from the messages divided by |)
 # then rewrite <message|message2> (A message that replaces the entire checked message.)
 #                                         (Chosen randomly from the messages divided by |)
-# then rewritein <world> <message> (A message used to replace the whole checked message in the specified world only. 
-#                                   You can use this together with 'rewrite' as a fallback on other worlds. It is possible 
-#                                   to add multiple operators in one rule for multiple worlds.)
-# then deny (Cancel the player's message from appearing in the chat.)
-# then console <command|command2|command3> (Commands to execute as the console. Use {player} to get player name. Divide multiple commands by |)
-# then bungeeconsole <command|command2|command3> (Commands sent to be executed on BungeeCord. Divide multiple commands by |)
-# then warn <message> (A message that is displayed to the player. TIP: Use | to split message into multiple lines (when \n is not working for you))
-# then kick <optionalReason> (If set, the player will be kicked with optional message.)
-# then notify <permission> <message> (Send a message to all players with specified permission.)
-# then fine <amount> (If plugin Vault is installed - take specified amount of money from the player.)
-# then points <set> <amount> (If points system is enabled (in settings.yml), give the player specified amount of points.)
-#                            (NOTICE: If you have global warning set, you do not need to specify the <set> if you want to give points to it)
-# then sound <bukkitSoundName>, <volume>, <pitch> (Plays a sound to the player. Example: 'then sound ENTITY_ARROW_HIT_PLAYER, 1.0, 0.1')
-# then title <title\nsubtitle> (Displays title to the player. Use \n to separate title from subtitle. You do not need to specify subtitle.)
-# then actionbar <message> (Displays action bar to the player.)
-# then bossbar <color> <style> <secondsToShow> <message> (Displays boss bar to the player. The plugin navigates you if you do know know
-#                                                         what colors or styles are supported.)
-# dont verbose (Even if you have Verbose enabled the rule will be hidden from appearing in the console.)
-# then log (Caught message will be printed in console and saved in rules_log.txt)
-# handle as <handler_name> (Launch actions specified in handlers.yml)
+# then deny (Cancel the player's message from appearing. See settinsg.yml for configuration on specific events.)
+# then console <command|command2|command3> (Commands to execute as the console. Use %player to get player's name. Split multiple commands by |)
+# then warn <message> (A message sent to the player.)
+# then kick <optionalResaon> (Kick the player with an optional message.)
+# then notify <permission> <message> (Send a message to all players with the permission.)
+# then fine <amount> (If Vault is installed - take specified amount of money from the player.)
+# then log (Caught message will be printed in console and saved in logs/rules.txt)
+# handle as <handler_name> (Launch actions specified in handlers.yml. NOTICE: This must be as a last operator in the rule!)
 #
-# -------------------------------------------------------------------------------
-# [TIP] The plugin supports regex capturing groups and it is possible to
-#       refer to them in other operators with $<number>. TIP: If the $1 is not
-#		displaying relevant information, try using $0 instead.
+# Valid variables:
+# %player (Player's name. Without prefix and suffix.)
+# %world (Player's world.)
 #
-# Example: match You are being teleported to (.*)
-#          then rewrite You have been moved to $1. Do /spawn to get back.
-# -------------------------------------------------------------------------------
-#
-# Variables:
-# {message} (The caught message.)
-# {permission} (NOTICE: Only in "require permission" operator)
-# ..and all the other variables (see the header in variables/javascript.txt file)
-#
-# -------------------------------------------------------------------------------
-# Colors, unicode, and JSON are supported! Read header in settings.yml for help.
+# Supports color codes with '&' character.
+# Accepts unicode characters when saved in UTF-8 encoding (tested on Notepad++).
 # -------------------------------------------------------------------------------
 
 # IP filter. 
@@ -71,10 +40,10 @@ before strip [\(\[\]\)]
 handle as advertisement
 
 # Domain/URL filter.
-# You can add new domains to be blocked by inserting '|your_domain' after '|me' (e.g. '|me|io' for also blocking '.io' domains)
+# You can add new domains by inserting '|your_domain' after '|io' (e.g. '|io|pl' for also blocking '.pl' domains)
 match [a-zA-Z0-9\-\.]+\s?(\.|dot|\(dot\)|-|;|:|,)\s?(com|org|net|cz|co|uk|sk|biz|mobi|xxx|eu|me|io)\b
-# If you want to ignore your server, it is only necessary to add it once in format:
-# Example (procraft.net will be ignored): ignore string minecraft:|youtube.com|imgur.com|procraft.net
+# If you want to whitelist your server, it is only necessary to add it once in format:
+# website.domain (example: procraft.com)
 # To add more domains simply add them after the last one and divide by |
 ignore string minecraft:|youtube.com|imgur.com
 id 2
@@ -88,7 +57,7 @@ handle as advertisement
 #then warn Watch your language please.
 # #Before commenting out check if you have Points enabled in settings.yml
 #then points swear 1
-#then notify chatcontrol.notify.rulesalert &8[&7{ruleID}&8] &7{player}: &f{message}
+#then notify chatcontrol.notify.rulesalert &8[&7%ruleID&8] &7%player: &f%message
 #then replace fridge|bridge
 
 # Ass and asshole filter. Words like glass are ignored. Commented out since its filtered below.
@@ -98,31 +67,15 @@ handle as advertisement
 # Swastika filter
 match \u534D|\u5350
 then kick &cDisallowed characters in the chat
-then notify chatcontrol.notify.rulesalert &8[&7Swastika&8] &7{player}: &f{message}
+then notify chatcontrol.notify.rulesalert &8[&7Swastika&8] &7%player: &f%message
 then deny
 
-# Restrict one character to max. two repeats
-# example: aaaaaaaaaa to aa
-# Commented out by default, might cause unwanted catches.
-#match (.)(?=\1\1+)
-#then replace
-
-# Restrict two characters to max. two repeats
-# example: hahahaha to haha
-#match (..)(?=\1\1+)
-#then replace
-
-# Restrict three characters to max. two repeats
-# example: lollollol to lollol
-#match (...)(?=\1\1+)
-#then replace
-
 # -------------------------------------------------------------------------------
-# Predefined swear filters are found below. Credits to owenmaple for contributing.
-# If you are not familiar with regular expressions, see ChatControl's 1. forum page at Spigot
-#
-# PS: Some of the rules are commented out, either because they are might not be desired or
-# possibly can catch up regular words too. Remove the '#' before 'match' and 'handle' to enable them.
+# Predefined swear filters are found below, in courtesy of owenmaple.
+# Editing them requires basic knowledge of regular expression language.
+# See ChatControl's Wiki on Github for starting help (with pictures).
+# -------------------------------------------------------------------------------
+# All rules can safely be removed (or edited, if you are familiar with regex!)
 # -------------------------------------------------------------------------------
 
 # Blocks fuck
@@ -161,8 +114,8 @@ handle as swear
 match \b(v+(\W|\d|_)*a+(\W|\d|_)*g+(\W|\d|_)*i+(\W|\d|_)*n+(\W|\d|_)*a+(\W|\d|_)*)
 handle as swear
 
-# Blocks 'penis'
-match \b(p+(\W|\d|_)*e+(\W|\d|_)*n+(\W|\d|_)*i+(\W|\d|_)*s+(\W|\d|_)*)
+# Blocks 'faggot'
+match \b(f+(\W|\d|_)*a+(\W|\d|_)*g+(\W|\d|_)*g+(\W|\d|_)*o+(\W|\d|_)*t+(\W|\d|_)*) 
 handle as swear
 
 # Blocks 'bugger'
@@ -240,40 +193,15 @@ handle as swear
 
 # Blocks 'titt'
 match \b(t+(\W|\d|_)*i+(\W|\d|_)*t+(\W|\d|_)*(t|s)+(\W|\d|_)*)
-ignore string title
 handle as swear
 
 # Blocks 'piss'
 match \b(p+(\W|\d|_)*i+(\W|\d|_)*s+(\W|\d|_)*s+(\W|\d|_)*)
 handle as swear
 
-# Blocks 'sex'
-#match \b(s+(\W|\d|_)*e+(\W|\d|_)*x+(\W|\d|_)*)
-#handle as swear
-
-# Blocks 'gay'
-#match \b(g+(\W|\d|_)*a+(\W|\d|_)*y+(\W|\d|_)*)
-#handle as swear
-
-# Blocks 'lesbian'
-match \b(l+(\W|\d|_)*e+(\W|\d|_)*s+(\W|\d|_)*b+(\W|\d|_)*i+(\W|\d|_)*a+(\W|\d|_)*n+(\W|\d|_)*)
-handle as swear
-
-# Blocks 'homo'
-#match \b(h+(\W|\d|_)*o+(\W|\d|_)*m+(\W|\d|_)*o+(\W|\d|_)*)
-#handle as swear
-
-# Blocks 'homosexual'
-#match \b(h+(\W|\d|_)*o+(\W|\d|_)*m+(\W|\d|_)*o+(\W|\d|_)*s+(\W|\d|_)*e+(\W|\d|_)*x+(\W|\d|_)*u+(\W|\d|_)*a+(\W|\d|_)*l+(\W|\d|_)*)
-#handle as swear
-
 # Blocks 'intercourse'
 match \b(i+(\W|\d|_)*n+(\W|\d|_)*t+(\W|\d|_)*e+(\W|\d|_)*r+(\W|\d|_)*c+(\W|\d|_)*o+(\W|\d|_)*u+(\W|\d|_)*r+(\W|\d|_)*s+(\W|\d|_)*e+(\W|\d|_)*)
 handle as swear
-
-# Blocks 'cum'
-#match \b(c+(\W|\d|_)*u+(\W|\d|_)*m+(\W|\d|_)*) 
-#handle as swear
 
 # Blocks 'sperm'
 match \b(s+(\W|\d|_)*p+(\W|\d|_)*e+(\W|\d|_)*r+(\W|\d|_)*m+(\W|\d|_)*) 
@@ -303,13 +231,31 @@ handle as swear
 match \b(d+(\W|\d|_)*a+(\W|\d|_)*f+(\W|\d|_)*u+(\W|\d|_)*q+(\W|\d|_)*) 
 handle as swear
 
-#Blocks 'prick'
-match \b(p+(\W|\d|_)*r+(\W|\d|_)*i+(\W|\d|_)*c+(\W|\d|_)*k+(\W|\d|_)*)
-handle as swear
+# ---------------- Following rules are commented out. Remove # to enable them ----------------
 
-#Blocks 'douche'
-match \b(d+(\W|\d|_)*o+(\W|\d|_)*u+(\W|\d|_)*c+(\W|\d|_)*h+(\W|\d|_)*e+(\W|\d|_)*)
-handle as swear
+# Blocks 'sex'
+#match \b(s+(\W|\d|_)*e+(\W|\d|_)*x+(\W|\d|_)*)
+#handle as swear
+
+# Blocks 'gay'
+#match \b(g+(\W|\d|_)*a+(\W|\d|_)*y+(\W|\d|_)*)
+#handle as swear
+
+# Blocks 'lesbian'
+#match \b(l+(\W|\d|_)*e+(\W|\d|_)*s+(\W|\d|_)*b+(\W|\d|_)*i+(\W|\d|_)*a+(\W|\d|_)*n+(\W|\d|_)*)
+#handle as swear
+
+# Blocks 'homo'
+#match \b(h+(\W|\d|_)*o+(\W|\d|_)*m+(\W|\d|_)*o+(\W|\d|_)*)
+#handle as swear
+
+# Blocks 'homosexual'
+#match \b(h+(\W|\d|_)*o+(\W|\d|_)*m+(\W|\d|_)*o+(\W|\d|_)*s+(\W|\d|_)*e+(\W|\d|_)*x+(\W|\d|_)*u+(\W|\d|_)*a+(\W|\d|_)*l+(\W|\d|_)*)
+#handle as swear
+
+# Blocks 'cum'
+#match \b(c+(\W|\d|_)*u+(\W|\d|_)*m+(\W|\d|_)*) 
+#handle as swear
 
 # Blocks 'prostitute'
 #match \b(p+(\W|\d|_)*r+(\W|\d|_)*o+(\W|\d|_)*s+(\W|\d|_)*t+(\W|\d|_)*i+(\W|\d|_)*t+(\W|\d|_)*u+(\W|\d|_)*t+(\W|\d|_)*e+(\W|\d|_)*) 
@@ -317,6 +263,10 @@ handle as swear
 
 # Blocks 'wtf'
 #match \b(w+(\W|\d|_)*t+(\W|\d|_)*f+(\W|\d|_)*) 
+#handle as swear
+
+# Blocks 'penis'
+#match \b(p+(\W|\d|_)*e+(\W|\d|_)*n+(\W|\d|_)*i+(\W|\d|_)*s+(\W|\d|_)*)
 #handle as swear
 
 # Blocks 'ffs'

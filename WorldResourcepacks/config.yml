@@ -7,37 +7,29 @@ messages:
   packlisthead: 'Packs available to you:'
   nopacks: No packs found!
 packs:
-  razul:
-    url: http://mynecraft.servegame.com/razul.zip
-    hash: 00033cf1e575514b8bd0ee6c6deef745dc77b4d0
-    format: 0
-    restricted: false
-    permission: worldresourcepacks.pack.razul
-  greenfield:
-    url: http://mynecraft.servegame.com/superherocity.zip
-    hash: 647338303690a328e11b3b0f0cf9f4f826727fe9
+  lobbypack:
+    url: http://example.com/lobbyresourcepack.zip
+    hash: abcdef012345678abcdef012345678abcdef0123
     format: 1
     restricted: false
-    permission: worldresourcepacks.pack.greenfield
-  survival:
-    url: http://mynecraft.servegame.com/survivalresourcepack.zip
-    hash: 1a7224d90ec4346da17f55a900ee43aa8f5f93f2
-    format: 3
+    permission: worldresourcepacks.pack.lobbypack
+  gamepack:
+    url: http://example.com/minigameresourcepack.zip
+    hash: 012345678abcdef012345678abcdef012345678a
+    format: 0
     restricted: false
-    permission: worldresourcepacks.pack.survival
+    permission: worldresourcepacks.pack.gamepack
   emptypack:
     url: http://cdn.moep.tv/files/Empty.zip
     hash: e5d91e14e9c685b06f00e550d9e189deb2075f76
     format: 0
     restricted: false
     permission: worldresourcepacks.pack.emptypack
-empty: survival
+empty: emptypack
 server:
-  pack: survival
+  pack: lobbypack
 worlds:
-  greenfield:
-    pack: greenfield
-  survival:
-    pack: survival
-  razul:
-    pack: razul
+  lobby:
+    pack: lobbypack
+  minigame:
+    pack: gamepack

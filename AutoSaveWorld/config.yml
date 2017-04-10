@@ -1,31 +1,31 @@
 var:
-  debug: true
+  debug: false
   commandsonlyfromconsole: false
 save:
-  interval: 600
+  interval: 900
   broadcast: true
   disablestructuresaving: false
   forceregioncachedump: true
   onplugindisable: true
 backup:
-  enabled: true
-  interval: 86400
+  enabled: false
+  interval: 21600
   broadcast: true
   savebefore: true
   rateLimit: -1
   localfs:
     enabled: true
     destinationfolders:
-    - /home/minecraft/backups/.
+    - /home/ServerConfig
     worlds:
     - '*'
-    MaxNumberOfWorldsBackups: 1
+    MaxNumberOfWorldsBackups: 15
     pluginsfolder: false
-    MaxNumberOfPluginsBackups: 1
+    MaxNumberOfPluginsBackups: 15
     otherfolders: []
-    MaxNumberOfOtherFoldersBackups: 1
+    MaxNumberOfOtherFoldersBackups: 15
     excludefolders: []
-    zip: true
+    zip: false
   ftp:
     enabled: false
     hostname: 127.0.0.1
@@ -44,7 +44,7 @@ backup:
   sftp:
     enabled: false
     hostname: 127.0.0.1
-    port: 21
+    port: 22
     login: user
     password: password
     path: asw
@@ -97,7 +97,7 @@ purge:
     deletepurgedblocks: false
   permissions:
     enabled: true
-    savecmd: mansave
+    savecmd: mansave force
   mywarp:
     enabled: true
   essentials:
