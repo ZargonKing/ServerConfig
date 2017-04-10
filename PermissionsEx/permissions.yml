@@ -1,6 +1,7 @@
 groups:
-  default:
+   mortal:
     options:
+<<<<<<< HEAD
       default: true
       prefix: '&3&LCivilian &7&L'
     permissions:
@@ -9,13 +10,70 @@ groups:
       '&7&L':
         options:
           prefix: '"&3&LCivilian'
+=======
+      default: 'true'
+      prefix: Mortal
+      suffix: '&f'
+    permissions:
+    - essentials.warp
+    - format.group
+    - essentials.powertool
+    - sank.sounds
+    - -essentials.ignore
+    - editablesign.edit
+    - essentials.getpos
+    - poll.command.results
+    - poll.command.vote
+    - csp.use.*
+    - csp.trail
+    - griefprevention.unlockdrops
+    - griefprevention.spam
+    - chatformat.mortal
+    - deluxechat.color
+    - -magic.wand.craft
+    - -magic.create.*
+    - deluxechat.url
+    - plots.download
+    - essentials.geoip.show
+    - libsdisguises.seecmd.viewself
+    - essentials.whois
+    - trail.wings
+    - essentials.eco.loan
+    - ch.alias.roll
+    - essentials.chat.color
+    - trail.all
+    - trail.rain
+    - trail.allow
+    - -essentials.warps.*
+    - essentials.balance
+    - essentials.balancetop
+    - essentials.baltop
+    - essentials.pay
+    - essentials.signs.use.warp
+    - essentials.spawn
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpahere
+    - essentials.tpdeny
+    - essentials.warps.*
+    - essentials.worth
+    - griefprevention.claims.give
+    - griefprevention.transferclaim
+    - whatisit.use
+    - worldedit.navigation.unstuck
+    - multiverse.access.*
+    - essentials.signs.color
+    - essentials.signs.magic
+    - essentials.signs.format
+  commonherotraits:
+    inheritance:
+    - mortal
+    permissions:
+    - -format.group
+>>>>>>> 7f4af3e8ab8d53b32991d641a958894f848fc8e0
   ThePresence:
     options:
       prefix: '&6[&cThePresence&6]&7'
-    worlds:
-      pmcspawn:
-        options:
-          prefix: '&6[&cThePresence&6]&7'
 schema-version: 1
 users:
   713cae7a-ef6d-4a06-8922-4741459c12bc:
