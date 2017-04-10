@@ -2,8 +2,13 @@ groups:
   default:
     options:
       default: true
+      prefix: '&3&LCivilian &7&L'
     permissions:
     - modifyworld.*
+    worlds:
+      '&7&L':
+        options:
+          prefix: '"&3&LCivilian'
   ThePresence:
     options:
       prefix: '&6[&cThePresence&6]&7'
@@ -20,3 +25,6 @@ users:
     - ThePresence
     permissions:
     - '*'
+  cf3259d2-0253-4088-9faf-2a030a493a5b:
+    options:
+      name: HotChilliz
