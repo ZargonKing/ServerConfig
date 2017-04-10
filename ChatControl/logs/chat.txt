@@ -11,3 +11,115 @@
 [09.04.2017 22:54:24] SpyJay_YT: plz
 [09.04.2017 22:54:29] Zargon_King: go to google and search for github
 [09.04.2017 22:54:50] Zargon_King: make an account there and then tell me once you are done
+[09.04.2017 22:57:14] Zargon_King: done?
+[09.04.2017 22:59:05] SpyJay_YT: ?
+[09.04.2017 22:59:15] SpyJay_YT: Can you give me a moment
+[09.04.2017 22:59:19] SpyJay_YT: I'm ading the other server
+[09.04.2017 22:59:20] Zargon_King: sure
+[09.04.2017 22:59:28] SpyJay_YT: work on the server for now
+[09.04.2017 23:08:59] SpyJay_YT: back
+[09.04.2017 23:09:31] Zargon_King: i'M TRYIN
+[09.04.2017 23:09:38] Zargon_King: oh wow
+[09.04.2017 23:09:41] Zargon_King: caps work
+[09.04.2017 23:10:16] SpyJay_YT: brb
+[09.04.2017 23:12:03] Zargon_King: wb
+[09.04.2017 23:13:13] SpyJay_YT: ty
+[09.04.2017 23:15:00] SpyJay_YT: what website do I register on
+[09.04.2017 23:15:01] Zargon_King: made an account yet?
+[09.04.2017 23:15:03] SpyJay_YT: for github
+[09.04.2017 23:15:17] Zargon_King: https://github.com/
+[09.04.2017 23:17:01] SpyJay_YT: made account
+[09.04.2017 23:17:09] Zargon_King: ok now here is another link
+[09.04.2017 23:17:46] Zargon_King: https://github.com/ZargonKing/ServerConfig
+[09.04.2017 23:18:13] Zargon_King: you can help edit the plugin files there
+[09.04.2017 23:19:33] Zargon_King: I will review the edited files and use them if it works
+[09.04.2017 23:20:13] SpyJay_YT: where is the file manager
+[09.04.2017 23:20:19] Zargon_King: for?
+[09.04.2017 23:20:32] SpyJay_YT: I need to see what kind of spigot you have
+[09.04.2017 23:20:50] Zargon_King: oh that
+[09.04.2017 23:20:55] Zargon_King: I'll just tell you
+[09.04.2017 23:21:07] Zargon_King: spigot 1.11.2
+[09.04.2017 23:22:39] SpyJay_YT: Why did you
+[09.04.2017 23:22:46] SpyJay_YT: install that chat plugin?
+[09.04.2017 23:22:49] SpyJay_YT: whats it for
+[09.04.2017 23:23:02] Zargon_King: I need it to manage the chat
+[09.04.2017 23:23:22] Zargon_King: like anti-spam, swear, advertisement etc
+[09.04.2017 23:23:25] SpyJay_YT: why was i
+[09.04.2017 23:23:28] SpyJay_YT: unable to talk
+[09.04.2017 23:23:47] Zargon_King: somehow you edited some file and it erased your config
+[09.04.2017 23:23:53] SpyJay_YT: put bungeecoord back on true? I need to test something
+[09.04.2017 23:24:24] Zargon_King: I don't have ip forwarding
+[09.04.2017 23:24:47] SpyJay_YT: you dont need it
+[09.04.2017 23:24:48] SpyJay_YT: lol
+[09.04.2017 23:25:03] Zargon_King: but I can't access my server
+[09.04.2017 23:25:14] SpyJay_YT: ?
+[09.04.2017 23:25:25] Zargon_King: I can't access it without ip forwarding
+[09.04.2017 23:25:42] SpyJay_YT: You can't JOIN it without ip forwarding
+[09.04.2017 23:25:46] SpyJay_YT: is that what u mean?
+[09.04.2017 23:25:48] Zargon_King: yes
+[09.04.2017 23:25:51] SpyJay_YT: because
+[09.04.2017 23:26:00] SpyJay_YT: you need to join the lobby
+[09.04.2017 23:26:07] SpyJay_YT: which is roleplaymc.us
+[09.04.2017 23:26:14] SpyJay_YT: I said that already dude >_<
+[09.04.2017 23:26:14] Zargon_King: ........
+[09.04.2017 23:26:32] Zargon_King: This is my own server
+[09.04.2017 23:26:45] Zargon_King: I don't want to link it up with another one
+[09.04.2017 23:26:56] SpyJay_YT: I thought you agreed on that already? :(
+[09.04.2017 23:27:07] Zargon_King: I want this to be unique
+[09.04.2017 23:27:14] SpyJay_YT: it still can
+[09.04.2017 23:27:30] Zargon_King: I want players to be able to access it via the ip I gave
+[09.04.2017 23:27:37] SpyJay_YT: the only difference is that you need to join the lobby and connect through the compass
+[09.04.2017 23:27:42] SpyJay_YT: come on dude
+[09.04.2017 23:27:45] SpyJay_YT: I had plans for this
+[09.04.2017 23:27:52] Zargon_King: alright then
+[09.04.2017 23:27:54] SpyJay_YT: thats how a network works
+[09.04.2017 23:27:59] Zargon_King: just this once
+[09.04.2017 23:28:05] SpyJay_YT: And
+[09.04.2017 23:28:15] SpyJay_YT: just tell those guys the IP is RoleplayMC.US
+[09.04.2017 23:28:23] SpyJay_YT: and blue wool in the compass
+[09.04.2017 23:28:32] Zargon_King: smart move though
+[09.04.2017 23:28:49] Zargon_King: just try not to mute yourself again
+[09.04.2017 23:28:59] SpyJay_YT: Zargon I promise I didn't touch anything
+[09.04.2017 23:29:07] Zargon_King: XD alright, alright
+[09.04.2017 23:29:25] Zargon_King: Ok so let's get down to some things
+[09.04.2017 23:29:33] Zargon_King: I want to make ranks
+[09.04.2017 23:29:39] Zargon_King: and promote users using it
+[09.04.2017 23:29:47] SpyJay_YT: Zargon
+[09.04.2017 23:29:50] Zargon_King: add specific perms to players too
+[09.04.2017 23:29:52] SpyJay_YT: I afree
+[09.04.2017 23:29:54] SpyJay_YT: agree*
+[09.04.2017 23:30:01] SpyJay_YT: but can I be incharge of donor ranks?
+[09.04.2017 23:30:06] Zargon_King: sure
+[09.04.2017 23:30:22] SpyJay_YT: People donate to roleplaymc, and I will use the money to buy premium plugins
+[09.04.2017 23:30:29] Zargon_King: I need some donation money too for this server
+[09.04.2017 23:30:44] SpyJay_YT: I will buy plugins & give them to you
+[09.04.2017 23:30:47] Zargon_King: it's running $135 annually
+[09.04.2017 23:30:55] Zargon_King: alright thanks mate
+[09.04.2017 23:31:01] SpyJay_YT: for example
+[09.04.2017 23:31:06] SpyJay_YT: I bought crack laser
+[09.04.2017 23:31:16] SpyJay_YT: it goes with crackshot
+[09.04.2017 23:31:19] Zargon_King: oh nice
+[09.04.2017 23:31:24] Zargon_King: I have crackshot too
+[09.04.2017 23:31:29] SpyJay_YT: perfect
+[09.04.2017 23:31:32] Zargon_King: but not the crackshotplus
+[09.04.2017 23:31:34] SpyJay_YT: This is injustice right?
+[09.04.2017 23:31:48] Zargon_King: This is more like a multi-verse link
+[09.04.2017 23:31:55] Zargon_King: follow me
+[09.04.2017 23:32:03] SpyJay_YT: cool!
+[09.04.2017 23:32:06] Zargon_King: that place
+[09.04.2017 23:32:14] Zargon_King: that will be for injustice
+[09.04.2017 23:32:28] Zargon_King: this one
+[09.04.2017 23:32:38] SpyJay_YT: Zargon
+[09.04.2017 23:32:42] Zargon_King: ?
+[09.04.2017 23:32:43] SpyJay_YT: I really need it to be 1 theme
+[09.04.2017 23:32:52] Zargon_King: it will be
+[09.04.2017 23:32:53] SpyJay_YT: can we do like multiple DC themes
+[09.04.2017 23:33:02] Zargon_King: sure
+[09.04.2017 23:33:15] SpyJay_YT: can u enable ops
+[09.04.2017 23:33:23] Zargon_King: arent you opped?
+[09.04.2017 23:34:26] Zargon_King: I'm gonna go and edit some perms
+[09.04.2017 23:34:57] SpyJay_YT: no i mean
+[09.04.2017 23:35:02] SpyJay_YT: in the pex config
+[09.04.2017 23:35:06] Zargon_King: ?
+[09.04.2017 23:35:08] Zargon_King: oh right
+[09.04.2017 23:35:14] Zargon_King: lemme edit it real quick

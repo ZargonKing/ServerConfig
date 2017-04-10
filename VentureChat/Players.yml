@@ -13,3 +13,41 @@ players:
     notifications: true
     nickname: Phantom
     date: 2014/Dec/02 17:12:40
+  66a628ac-d549-3349-b513-1726ea042e24:
+    name: SpyJay_YT
+    current: Global
+    ignores: ''
+    listen: Trade,Help,Donator,Staff,Network,Local,Admin,Global
+    mutes: ''
+    blockedcommands: ''
+    mail: ''
+    host: false
+    party: ''
+    filter: true
+    notifications: true
+    nickname: SpyJay_YT
+    date: 2017/Apr/09 23:24:32
+    spy: false
+    commandspy: false
+    rangedspy: false
+    buttons: true
+    messagetoggle: true
+  da4db28f-13e4-3267-a943-239c31e4ee80:
+    name: Zargon_King
+    current: Global
+    ignores: ''
+    listen: Trade,Help,Donator,Staff,Network,Local,Admin,Global
+    mutes: ''
+    blockedcommands: ''
+    mail: ''
+    host: false
+    party: ''
+    filter: true
+    notifications: true
+    nickname: Zargon_King
+    spy: false
+    commandspy: false
+    rangedspy: false
+    buttons: true
+    messagetoggle: true
+    date: 2017/Apr/09 23:24:32
