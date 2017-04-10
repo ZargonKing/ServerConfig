@@ -1,16 +1,552 @@
 groups:
-  default:
+   mortal:
     options:
-      default: true
+      default: 'true'
+      prefix: Mortal
+      suffix: '&f'
     permissions:
-    - modifyworld.*
+    - -essentials.warps.desk
+    - multiverse.access.office
+    - ch.alias.marry
+    - -esssentials.warps.torture
+    - -esssentials.warps.tortureadmin
+    - -essentials.warps.tekindustrieslaboratorygroundfloor
+    - multiverse.access.infinitycity
+    - ch.alias.listworlds
+    - essentials.warp
+    - -essentials.warps.thealpha2
+    - chatcontrol.commands.channels.players
+    - chatcontrol.chat.format.color
+    - format.group
+    - multiverse.access.techcombatknockbackgame
+    - multiverse.access.escaperoom
+    - multiverse.access.parksideprisonescape
+    - chatcontrol.channel.global
+    - chatcontrol.channel.local
+    - chatcontrol.commands.channels.switch
+    - chatcontrol.commands.channels.join
+    - chatcontrol.commands.channels.leave
+    - chatcontrol.commands.channels.list
+    - chatcontrol.commands.channels
+    - -essentials.warps.underworld
+    - multiverse.access.plots
+    - multiverse.access.newminigamehub
+    - chatcontrol.bypass.time.commands
+    - chatcontrol.bypass.time.chat
+    - chatcontrol.bypass.commands
+    - chatcontrol.bypass.chat
+    - chatcontrol.bypass.move
+    - chatcontrol.bypass.caps
+    - chatcontrol.bypass.replace
+    - chatcontrol.bypass.capitalize
+    - chatcontrol.bypass.punctuate
+    - chatcontrol.bypass.signduplication
+    - chatcontrol.bypass.rules
+    - chatcontrol.bypass.nicknames
+    - chatcontrol.commands.reply
+    - chatcontrol.commands.tell
+    - chatcontrol.notify.whenmentioned
+    - chatcontrol.notify.outofrange
+    - chatcontrol.channel.*.join
+    - chatcontrol.channel.*.leave
+    - chatcontrol.channel.global.autojoin
+    - -essentials.warps.alpha
+    - -essentials.warps.thealpha
+    - essentials.powertool
+    - sank.sounds
+    - essentials.nick
+    - -essentials.warps.kingslanding
+    - multiverse.access.heroicparkour
+    - multiverse.access.minecraftparkourmode
+    - multiverse.access.runner
+    - -essentials.warps.tekindustriesmoneyroom2
+    - -essentials.warps.tekindustriesmoneyroom1
+    - multiverse.access.overvoid
+    - multiverse.access.spleeg
+    - deluxechat.utf
+    - -essentials.ignore
+    - herochat.admin.unignore
+    - ch.alias.mortal
+    - editablesign.edit
+    - essentials.getpos
+    - multiverse.access.vampirez
+    - multiverse.access.pvpworldsruins
+    - multiverse.access.pvpworldsforest
+    - multiverse.access.pvpworldsundergroundarmory
+    - multiverse.access.pvpworldslobby
+    - multiverse.access.extremesumo
+    - multiverse.access.deathmachine
+    - multiverse.access.pvpparkourlobby
+    - multiverse.access.pvpparkour
+    - multiverse.access.verticalparkour
+    - multiverse.access.elytrapvp
+    - multiverse.access.quickparkour
+    - multiverse.access.kingoftheladder
+    - multiverse.access.sprintparkour
+    - multiverse.access.mazerunner
+    - multiverse.access.turfwars
+    - multiverse.access.soccer
+    - multiverse.access.deathrun
+    - multiverse.access.rules
+    - herochat.color.white.all
+    - herochat.color.yellow.all
+    - herochat.color.light_purple.all
+    - herochat.color.red.all
+    - herochat.color.aqua.all
+    - herochat.color.green.all
+    - herochat.color.blue.all
+    - herochat.color.gray.all
+    - herochat.color.gold.all
+    - herochat.color.dark_gray.all
+    - herochat.color.dark_purple.all
+    - herochat.color.dark_red.all
+    - herochat.color.dark_aqua.all
+    - herochat.color.dark_green.all
+    - herochat.color.dark_blue.all
+    - herochat.color.black.all
+    - herochat.color.pink
+    - multiverse.access.elytrapole
+    - herochat.pm
+    - venturechat.messagetoggle
+    - poll.command.results
+    - poll.command.vote
+    - venturechat.color
+    - csp.use.*
+    - csp.trail
+    - multiverse.access.lasertag
+    - multiverse.access.newcity
+    - multiverse.access.garbageworld
+    - ch.alias.skin
+    - griefprevention.unlockdrops
+    - griefprevention.spam
+    - multiverse.access.rollercoaster
+    - chatformat.mortal
+    - deluxechat.color
+    - -magic.wand.craft
+    - -magic.create.*
+    - deluxechat.url
+    - -essentials.warps.speedforce
+    - multiverse.access.speedforce
+    - multiverse.access.titanstower
+    - ch.alias.bannedcommand
+    - plots.download
+    - essentials.geoip.show
+    - ch.alias.listheroes
+    - ch.alias.id
+    - -essentials.warps.tekindustrieslaboratory
+    - ch.alias.bind
+    - ch.alias.rtp
+    - icu.stop
+    - multiverse.access.hallofworlds
+    - multiverse.access.destructiblecity
+    - ch.alias.outofmoney
+    - multiverse.access.missions
+    - multiverse.access.newspawn
+    - libsdisguises.seecmd.viewself
+    - essentials.whois
+    - multiverse.access.torture
+    - multiverse.access.pmc
+    - multiverse.access.hogwarts
+    - multiverse.access.greenfield
+    - multiverse.access.gotham
+    - multiverse.access.metropolis
+    - multiverse.access.hallofjustice
+    - multiverse.access.tomorrowland
+    - multiverse.access.skywarslobby
+    - multiverse.access.megaparkour
+    - multiverse.access.spawn
+    - multiverse.access.flappybirdparkour
+    - trail.wings
+    - multiverse.access.shortparkour
+    - essentials.eco.loan
+    - multiverse.access.parkour
+    - multiverse.access.checkers
+    - multiverse.access.parkourhub
+    - multiverse.access.flyingbattlearena
+    - multiverse.access.flyingbattlelobby
+    - multiverse.access.godlyparkour
+    - multiverse.access.longparkour
+    - multiverse.access.straightlineparkour
+    - multiverse.access.towerparkour
+    - multiverse.access.infiniteparkour
+    - multiverse.access.parkourhard
+    - multiverse.access.parkourmedium
+    - ch.alias.roll
+    - multiverse.access.parkoureasy
+    - multiverse.access.lavahop
+    - multiverse.access.colosseumlobby
+    - multiverse.access.minigameworld
+    - multiverse.access.boatrace
+    - multiverse.access.colosseum
+    - multiverse.access.hurdles
+    - multiverse.access.kidnapped
+    - multiverse.access.formuladrift
+    - multiverse.access.turbotowers
+    - multiverse.access.wallenpole
+    - multiverse.access.deathdrop
+    - multiverse.access.spleef
+    - multiverse.access.spleeflobby
+    - multiverse.access.obstaclecourse
+    - multiverse.access.hilariousrace
+    - multiverse.access.chess
+    - multiverse.access.elytrachallenge
+    - multiverse.access.elytralobby
+    - multiverse.access.elytraeasy
+    - multiverse.access.elytramedium
+    - multiverse.access.elytrahard
+    - multiverse.access.skywars
+    - multiverse.access.marathon
+    - essentials.chat.color
+    - trail.all
+    - trail.rain
+    - ch.alias.run0
+    - multiverse.access.survival
+    - multiverse.access.survival_nether
+    - multiverse.access.survival_the_end
+    - essentials.hat
+    - trail.allow
+    - -essentials.warps.arena
+    - -essentials.warps.arenablue
+    - -essentials.warps.drop2
+    - -essentials.warps.drop3
+    - -essentials.warps.drop4
+    - -essentials.warps.drop5
+    - -essentials.warps.redteampvpparkour
+    - -essentials.warps.blueteampvpparkour
+    - -essentials.warps.arenaGreen
+    - -essentials.warps.arenaYellow
+    - -essentials.warps.arenaOrange
+    - -essentials.warps.arenaRed
+    - -essentials.warps.spleefGreen
+    - -essentials.warps.spleefYellow
+    - -essentials.warps.spleefOrange
+    - -essentials.warps.spleefRed
+    - -essentials.warps.skywars1
+    - -essentials.warps.skywars2
+    - -essentials.warps.skywars3
+    - -essentials.warps.skywars4
+    - -essentials.warps.skywars5
+    - -essentials.warps.skywars6
+    - -essentials.warps.skywars7
+    - -essentials.warps.skywars8
+    - -essentials.warps.skywars9
+    - -essentials.warps.skywars10
+    - -essentials.warps.skywars11
+    - -essentials.warps.skywars12
+    - -essentials.warps.skywars13
+    - -essentials.warps.skywars14
+    - -essentials.warps.skywars15
+    - -essentials.warps.skywars16
+    - -essentials.warps.skywars17
+    - -essentials.warps.skywars18
+    - -essentials.warps.skywars19
+    - -essentials.warps.skywars20
+    - -essentials.warps.BasementLevel1
+    - -essentials.warps.BasementLevel2
+    - -essentials.warps.BasementLevel3
+    - -essentials.warps.BasementLevel4
+    - -essentials.warps.BasementLevel5
+    - -essentials.warps.BasementLevel6
+    - -essentials.warps.BasementLevel7
+    - -essentials.warps.BasementLevel8
+    - -essentials.warps.BasementLevel9
+    - -essentials.warps.BasementLevel10
+    - -essentials.warps.BasementLevel11
+    - -essentials.warps.BasementLevel12
+    - -essentials.warps.BasementLevel13
+    - -essentials.warps.BasementLevel14
+    - -essentials.warps.BasementLevel15
+    - -essentials.warps.BasementLevel16
+    - -essentials.warps.BasementLevel17
+    - essentials.balance
+    - essentials.balancetop
+    - essentials.baltop
+    - essentials.pay
+    - essentials.signs.use.warp
+    - essentials.spawn
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpahere
+    - essentials.tpdeny
+    - essentials.warps.*
+    - essentials.worth
+    - griefprevention.claims.give
+    - griefprevention.transferclaim
+    - whatisit.use
+    - worldedit.navigation.unstuck
+    - -multiverse.access.anarchy
+    - multiverse.access.survival
+    - multiverse.access.survival_nether
+    - multiverse.access.survival_the_end
+    - multiverse.access.wooftywoo
+    - multiverse.access.wooftywoo_nether
+    - multiverse.access.wooftywoo_the_end
+    - multiverse.access.RabbitSeasonDuckSeason
+    - multiverse.access.RabbitSeasonDuckSeason_nether
+    - multiverse.access.RabbitSeasonDuckSeason_the_end
+    - multiverse.access.pornhub
+    - multiverse.access.pornhub_nether
+    - multiverse.access.pornhub_the_end
+    - multiverse.access.flat
+    - multiverse.access.creative
+    - multiverse.access.RabbitSeasonDuckSeason
+    - multiverse.access.RabbitSeasonDuckSeason_nether
+    - multiverse.access.RabbitSeasonDuckSeason_the_end
+    - multiverse.access.pornhub
+    - multiverse.access.pornhub_nether
+    - multiverse.access.pornhub_the_end
+    - multiverse.access.crapcakesandapplesauce
+    - multiverse.access.crapcakesandapplesauce_nether
+    - multiverse.access.crapcakesandapplesauce_the_end
+    - essentials.signs.color
+    - essentials.signs.magic
+    - essentials.signs.format
+    worlds:
+      chess:
+        permissions:
+        - essentials.fly
+        - essentials.build.*
+      colosseum:
+        permissions:
+        - essentials.build.interact.*
+        - -essentials.suicide
+        - -essentials.home
+        - -essentials.home.bed
+        - -essentials.home.others
+        - -essentials.sethome
+        - -essentials.sethome.bed
+        - -essentials.sethome.multiple.unlimited
+        - -essentials.spawn
+        - -essentials.tpa
+        - -essentials.tpaccept
+        - -essentials.tpahere
+        - -essentials.warp
+        - -essentials.warps.*
+        - -worldedit.navigation.unstuck
+      creative:
+        permissions:
+        - essentials.sethome
+        - essentials.sethome.bed
+        - essentials.sethome.multiple.unlimited
+        - essentials.back
+        - -essentials.build.interact.328:0
+        - -essentials.build.interact.342:0
+        - -essentials.build.interact.343:0
+        - -essentials.build.interact.407:0
+        - -essentials.build.interact.408:0
+        - -essentials.build.interact.23:0
+        - -essentials.build.interact.23:1
+        - -essentials.build.interact.23:2
+        - -essentials.build.interact.23:3
+        - -essentials.build.interact.23:4
+        - -essentials.build.interact.23:5
+        - -essentials.build.interact.154:0
+        - -essentials.build.interact.154:1
+        - -essentials.build.interact.154:2
+        - -essentials.build.interact.154:3
+        - -essentials.build.interact.154:4
+        - -essentials.build.interact.154:5
+        - -essentials.build.interact.154:6
+        - -essentials.build.interact.154:7
+        - -essentials.build.place.154:0
+        - -essentials.build.place.154:1
+        - -essentials.build.place.154:2
+        - -essentials.build.place.154:3
+        - -essentials.build.place.154:4
+        - -essentials.build.place.154:5
+        - -essentials.build.place.154:6
+        - -essentials.build.place.154:7
+        - -essentials.build.place.29:0
+        - -essentials.build.place.29:1
+        - -essentials.build.place.29:2
+        - -essentials.build.place.29:3
+        - -essentials.build.place.29:4
+        - -essentials.build.place.29:5
+        - -essentials.build.place.33:0
+        - -essentials.build.place.33:1
+        - -essentials.build.place.33:2
+        - -essentials.build.place.33:3
+        - -essentials.build.place.33:4
+        - -essentials.build.place.33:5
+        - -essentials.build.place.33:6
+        - -essentials.build.place.7:0
+        - -essentials.build.break.7:0
+        - essentials.clearinventory
+        - essentials.skull
+        - essentials.skull.*
+        - essentials.sethome
+        - essentials.build.*
+      deathdrop:
+        permissions:
+        - essentials.build.interact.*
+      destructiblecity:
+        permissions:
+        - essentials.sethome
+        - essentials.tpaccept
+        - essentials.tpahere
+        - essentials.tpa
+      godlyparkour:
+        permissions:
+        - essentials.build.interact.*
+        - ch.alias.gc
+        - ch.alias.cp
+        - -essentials.tpa
+        - -essentials.tpahere
+      greenfield:
+        permissions:
+        - essentials.build.interact.*
+        - -essentials.sethome
+        - -essentials.tpahere
+        - essentials.build.use.*
+        - essentials.build.drop.*
+        - essentials.build.pickup.*
+      plots:
+        permissions:
+        - essentials.fly
+        - plots.home
+        - plots.visit.owned
+        - plots.visit
+        - plots.trust
+        - plots.merge
+        - plots.delete
+        - plots.clear
+        - plots.plot.4
+        - plots.claim
+      skywars:
+        permissions:
+        - essentials.build.interact.*
+        - essentials.build.*
+      spleef:
+        permissions:
+        - essentials.build.interact.*
+        - essentials.build.break.46
+      survival:
+        permissions:
+        - command.roll
+        - essentials.build.*
+        - ch.alias.buff
+        - essentials.sethome
+        - ch.alias.fixskin
+        - drugs.*
+        - ch.alias.powers
+        - auction.bid
+        - auction.start
+        - Signshop.ChangeOwner
+        - Signshop.DenyUse.*
+        - Signshop.Permit
+        - Signshop.Signs.Buy
+        - essentials.build.*
+        - essentials.sethome.bed
+        - essentials.sethome.multiple.unlimited
+      deathrun:
+        permissions:
+        - essentials.build.interact.*
+        - -essentials.warps.deathrun
+      garbageworld:
+        permissions:
+        - essentials.fly
+        - essentials.sethome.multiple
+        - essentials.sethome
+      overvoid:
+        permissions:
+        - essentials.build.interact.*
+        - essentials.interact.*
+      lavahop:
+        permissions:
+        - essentials.build.interact.*
+      spawn:
+        permissions:
+        - essentials.build.interact.*
+        - essentials.interact.*
+      spleeflobby:
+        permissions:
+        - essentials.build.interact.*
+      boatrace:
+        permissions:
+        - essentials.build.interact.*
+      alpha:
+        permissions:
+        - essentials.build.interact.77
+        - -essentials.suicide
+        - essentials.build.interact.72
+        - essentials.build.interact.64:*
+        - essentials.build.interact.64
+        - essentials.build.interact.387
+        - essentials.build.interact.340:*
+        - essentials.build.interact.340
+        - essentials.build.interact.54
+        - -essentials.tpa.*
+        - -essentials.tpa
+      hurdles:
+        permissions:
+        - essentials.build.interact.*
+      newminigamehub:
+        permissions:
+        - essentials.build.interact.*
+      parkourhub:
+        permissions:
+        - essentials.build.interact.*
+      straightlineparkour:
+        permissions:
+        - essentials.build.interact.*
+      parkoureasy:
+        permissions:
+        - essentials.build.interact.*
+      rules:
+        permissions:
+        - essentials.build.interact.*
+      elytrahard:
+        permissions:
+        - essentials.build.interact.*
+      turbotowers:
+        permissions:
+        - essentials.build.interact.*
+      rollercoaster:
+        permissions:
+        - essentials.build.interact.*
+      escaperoom:
+        permissions:
+        - essentials.build.*
+      underworld:
+        permissions:
+        - essentials.build.*
+        - essentials.build.interact.*
+      parksideprisonescape:
+        permissions:
+        - essentials.build.interact.*
+      techcombatknockbackgame:
+        permissions:
+        - essentials.build.interact.*
+      lasertag:
+        permissions:
+        - essentials.build.interact.*
+      skywarslobby:
+        permissions:
+        - essentials.build.interact.*
+      flyingbattlearena:
+        permissions:
+        - essentials.build.interact.*
+      colosseumlobby:
+        permissions:
+        - essentials.build.interact.*
+      waterprison:
+        permissions:
+        - essentials.interact
+        - essentials.build.interact.*
+      parkourmedium:
+        permissions:
+        - essentials.build.interact.*
+      office:
+        permissions:
+        - essentials.build.interact.*
+  commonherotraits:
+    inheritance:
+    - mortal
+    permissions:
+    - -format.group
   ThePresence:
     options:
       prefix: '&6[&cThePresence&6]&7'
-    worlds:
-      pmcspawn:
-        options:
-          prefix: '&6[&cThePresence&6]&7'
 schema-version: 1
 users:
   713cae7a-ef6d-4a06-8922-4741459c12bc:
