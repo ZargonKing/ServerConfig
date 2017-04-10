@@ -496,12 +496,6 @@ toggle:
     usage: ''
     description: Toggle admin chat spying
     confirmation: false
-  clear-confirmation:
-    aliases:
-    - clear-confirmation
-    usage: ''
-    description: Toggle autoclear confirmation
-    confirmation: false
   worldedit:
     aliases:
     - worldedit
@@ -515,6 +509,12 @@ toggle:
     - titles
     usage: ''
     description: Toggle plot title messages
+    confirmation: false
+  clear-confirmation:
+    aliases:
+    - clear-confirmation
+    usage: ''
+    description: Toggle autoclear confirmation
     confirmation: false
   chat:
     aliases:

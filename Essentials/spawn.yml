@@ -1,8 +1,0 @@
-spawns: 
-  default: 
-    world: pmcspawn
-    x: 7.5
-    y: 5.0
-    z: -70.5
-    yaw: 288.57892
-    pitch: 90.0
