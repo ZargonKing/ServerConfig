@@ -65,3 +65,22 @@ players:
     notifications: true
     nickname: nightghost2
     date: 2017/Apr/10 00:13:38
+  531c3483-0b12-346d-8f42-186aec32bd5a:
+    name: MelonKetchum
+    current: Global
+    ignores: ''
+    listen: Trade,Help,Network,Local,Global
+    mutes: ''
+    blockedcommands: ''
+    mail: ''
+    host: false
+    party: ''
+    filter: true
+    notifications: true
+    nickname: MelonKetchum
+    spy: false
+    commandspy: false
+    rangedspy: false
+    buttons: true
+    messagetoggle: true
+    date: 2017/Apr/10 00:38:58

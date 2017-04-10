@@ -15,6 +15,7 @@ groups:
     - essentials.home
     - modifyworld.*
 <<<<<<< HEAD
+<<<<<<< HEAD
     worlds:
       world:
         options:
@@ -37,6 +38,8 @@ groups:
     inheritance:
     - Civillian
 >>>>>>> 3e229dadc0ba36b289818d62d8fbd852a32ad356
+=======
+>>>>>>> 4c0053e82ba4a6b0f156074b0fd95b0a30e8aea6
 schema-version: 1
 users:
   da4db28f-13e4-3267-a943-239c31e4ee80:
