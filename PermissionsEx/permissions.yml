@@ -21,8 +21,7 @@ groups:
           default: 'false'
 =======
   Moderator:
-    options:
-      prefix: '&1(&8C&1ivillian&1)&7 '
+      prefix: '&1(&8M&1oderator&1)&7 '
     permissions:
     - anyonesleep.cansleep
     - essentials.afk
@@ -34,6 +33,7 @@ groups:
     - essentials.delhome
     - essentials.home
     - modifyworld.*
+    - essentials.*
     inheritance:
     - Civillian
 >>>>>>> 3e229dadc0ba36b289818d62d8fbd852a32ad356
