@@ -14,22 +14,6 @@ groups:
     - essentials.delhome
     - essentials.home
     - modifyworld.*
-  Moderator:
-      prefix: '&1(&8M&1oderator&1)&7 '
-    permissions:
-    - anyonesleep.cansleep
-    - essentials.afk
-    - essentials.tp
-    - essentials.warp
-    - essentials.help
-    - essentials.spawn
-    - essentials.sethome
-    - essentials.delhome
-    - essentials.home
-    - modifyworld.*
-    - essentials.*
-    inheritance:
-    - Civillian
 schema-version: 1
 users:
   da4db28f-13e4-3267-a943-239c31e4ee80:
