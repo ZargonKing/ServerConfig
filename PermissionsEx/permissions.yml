@@ -15,8 +15,7 @@ groups:
     - essentials.home
     - modifyworld.*
   Moderator:
-    options:
-      prefix: '&1(&8C&1ivillian&1)&7 '
+      prefix: '&1(&8M&1oderator&1)&7 '
     permissions:
     - anyonesleep.cansleep
     - essentials.afk
@@ -28,6 +27,7 @@ groups:
     - essentials.delhome
     - essentials.home
     - modifyworld.*
+    - essentials.*
     inheritance:
     - Civillian
 schema-version: 1
