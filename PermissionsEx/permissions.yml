@@ -14,6 +14,10 @@ groups:
     - essentials.delhome
     - essentials.home
     - modifyworld.*
+    worlds:
+      world:
+        options:
+          default: 'false'
 schema-version: 1
 users:
   da4db28f-13e4-3267-a943-239c31e4ee80:

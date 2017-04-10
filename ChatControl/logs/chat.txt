@@ -279,3 +279,20 @@
 [10.04.2017 00:13:21] Zargon_King: and you can use it
 [10.04.2017 00:13:22] nightghost2: Cant i stay on?
 [10.04.2017 00:16:35] SpyJay_YT: brb
+[10.04.2017 00:21:00] Zargon_King: test
+[10.04.2017 00:21:07] Zargon_King: test
+[10.04.2017 00:27:11] SpyJay_YT: :P
+[10.04.2017 00:28:48] Zargon_King: test
+[10.04.2017 00:28:54] Zargon_King: is it working?
+[10.04.2017 00:29:00] SpyJay_YT: bte
+[10.04.2017 00:29:01] SpyJay_YT: btw
+[10.04.2017 00:29:05] Zargon_King: yes?
+[10.04.2017 00:29:06] SpyJay_YT: The link doesnt work
+[10.04.2017 00:29:12] SpyJay_YT: it lets me look at the config
+[10.04.2017 00:29:13] SpyJay_YT: but
+[10.04.2017 00:29:17] SpyJay_YT: i can't touch them
+[10.04.2017 00:29:26] Zargon_King: ok so, you need to log in to your account
+[10.04.2017 00:29:52] SpyJay_YT: ,
+[10.04.2017 00:29:57] Zargon_King: and then you need to press the small pencil button at the top right corner of the config file
+[10.04.2017 00:30:08] Zargon_King: that's how you edit
+[10.04.2017 00:30:33] SpyJay_YT: oh
