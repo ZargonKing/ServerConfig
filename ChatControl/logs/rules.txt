@@ -1,0 +1,1 @@
+[10.04.2017 00:12:27] nightghost2: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gmc

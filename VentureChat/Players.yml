@@ -25,8 +25,8 @@ players:
     party: ''
     filter: true
     notifications: true
-    nickname: SpyJay_YT
-    date: 2017/Apr/09 23:24:32
+    nickname: §4SpyJay_YT§r
+    date: 2017/Apr/10 00:16:37
     spy: false
     commandspy: false
     rangedspy: false
@@ -50,4 +50,18 @@ players:
     rangedspy: false
     buttons: true
     messagetoggle: true
-    date: 2017/Apr/09 23:24:32
+    date: 2017/Apr/10 00:18:23
+  73ac5f96-879b-3a5f-b065-98fc31a5ee29:
+    name: nightghost2
+    current: Global
+    ignores: ''
+    listen: Trade,Help,Network,Local,Global
+    mutes: ''
+    blockedcommands: ''
+    mail: ''
+    host: false
+    party: ''
+    filter: true
+    notifications: true
+    nickname: nightghost2
+    date: 2017/Apr/10 00:13:38

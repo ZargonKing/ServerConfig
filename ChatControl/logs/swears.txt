@@ -1,0 +1,3 @@
+[10.04.2017 00:06:07] nightghost2: [Handler=swear, Rule ID=UNSET] Shit
+[10.04.2017 00:06:28] nightghost2: [Handler=swear, Rule ID=UNSET] shit
+[10.04.2017 00:06:30] nightghost2: [Handler=swear, Rule ID=UNSET] fuck
