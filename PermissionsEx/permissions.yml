@@ -1,12 +1,55 @@
 groups:
-  default:
+  Civillian:
     options:
-      default: true
+      default: 'true'
+      prefix: '&6[&7Civillian&6]&7'
     permissions:
     - modifyworld.*
+    worlds:
+      world:
+        options:
+          default: 'true'
+      pmcspawn:
+        options:
+          default: 'true'
+      world_the_end:
+        options:
+          default: 'true'
+      world_nether:
+        options:
+          default: 'true'
   ThePresence:
+    inheritance:
+    - Civillian
     options:
       prefix: '&6[&cThePresence&6]&7'
+  Builder:
+    inheritance:
+    - Civillian
+  Head-Builder:
+    inheritance:
+    - Builder
+  Admin:
+    inheritance:
+    - Head-Builder
+  Head-Admin:
+    inheritance:
+    - Admin
+  Police-Officer:
+    inheritance:
+    - Admin
+  Head-Officer:
+    inheritance:
+    - Head-Admin
+  Assistant-Officer:
+    inheritance:
+    - Head-Admin
+  Coder:
+    inheritance:
+    - Head-Builder
+  Head-Coder:
+    inheritance:
+    - Coder
 schema-version: 1
 users:
   713cae7a-ef6d-4a06-8922-4741459c12bc:

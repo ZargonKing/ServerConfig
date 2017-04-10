@@ -5,21 +5,6 @@
     "millis": 1491808160021
   },
   {
-    "id": "ee6fa23c-2eef-4a1c-95e0-2df5588bf3af",
-    "name": "Spid0207",
-    "millis": 1491803559501
-  },
-  {
-    "id": "713cae7a-ef6d-4a06-8922-4741459c12bc",
-    "name": "Zargon_King",
-    "millis": 1491809936752
-  },
-  {
-    "id": "@console",
-    "name": "@console",
-    "millis": 1491809947726
-  },
-  {
     "id": "e58af273-6453-47ae-b01d-c05f9210f38c",
     "name": "Umbyy",
     "millis": 1491808293828
@@ -28,6 +13,11 @@
     "id": "32eba9b5-8552-39c8-9834-46cadc1927e4",
     "name": "Eobard765Man",
     "millis": 1491792879865
+  },
+  {
+    "id": "713cae7a-ef6d-4a06-8922-4741459c12bc",
+    "name": "Zargon_King",
+    "millis": 1491813374091
   },
   {
     "id": "08a32275-b5a8-3282-9a30-6508b601f7f8",
@@ -40,6 +30,11 @@
     "millis": 1491797618242
   },
   {
+    "id": "ee6fa23c-2eef-4a1c-95e0-2df5588bf3af",
+    "name": "Spid0207",
+    "millis": 1491812737914
+  },
+  {
     "id": "531c3483-0b12-346d-8f42-186aec32bd5a",
     "name": "MelonKetchum",
     "millis": 1491799234036
@@ -48,5 +43,10 @@
     "id": "cf3259d2-0253-4088-9faf-2a030a493a5b",
     "name": "HotChilliz",
     "millis": 1491804800500
+  },
+  {
+    "id": "@console",
+    "name": "@console",
+    "millis": 1491812185924
   }
 ]
