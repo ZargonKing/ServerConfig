@@ -1,13 +1,10 @@
 groups:
-  Civillian:
+  default:
     options:
       default: true
-      prefix: '&6[&7Civillian&6]&7'
     permissions:
     - modifyworld.*
   ThePresence:
-    inheritance:
-    - Civillian
     options:
       prefix: '&6[&cThePresence&6]&7'
 schema-version: 1
