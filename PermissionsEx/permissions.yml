@@ -4,4 +4,19 @@ groups:
       default: true
     permissions:
     - modifyworld.*
+  ThePresence:
+    options:
+      prefix: '&6[&cThePresence&6]&7'
+    worlds:
+      pmcspawn:
+        options:
+          prefix: '&6[&cThePresence&6]&7'
 schema-version: 1
+users:
+  713cae7a-ef6d-4a06-8922-4741459c12bc:
+    options:
+      name: Zargon_King
+    group:
+    - ThePresence
+    permissions:
+    - '*'
