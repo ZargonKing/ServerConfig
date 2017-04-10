@@ -14,10 +14,29 @@ groups:
     - essentials.delhome
     - essentials.home
     - modifyworld.*
+<<<<<<< HEAD
     worlds:
       world:
         options:
           default: 'false'
+=======
+  Moderator:
+    options:
+      prefix: '&1(&8C&1ivillian&1)&7 '
+    permissions:
+    - anyonesleep.cansleep
+    - essentials.afk
+    - essentials.tp
+    - essentials.warp
+    - essentials.help
+    - essentials.spawn
+    - essentials.sethome
+    - essentials.delhome
+    - essentials.home
+    - modifyworld.*
+    inheritance:
+    - Civillian
+>>>>>>> 3e229dadc0ba36b289818d62d8fbd852a32ad356
 schema-version: 1
 users:
   da4db28f-13e4-3267-a943-239c31e4ee80:
