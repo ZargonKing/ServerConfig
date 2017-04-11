@@ -1,10 +1,48 @@
 groups:
-  Civilian:
+  Citizen:
     options:
       default: 'true'
+<<<<<<< HEAD
       prefix: '&f[&7Civilian&f]'
       rank: '300'
+=======
+      prefix: '&f[&7Citizen&f]&f'
+      rank: '1000'
+>>>>>>> 971c590a242fc379ac56a634f9e3dd586f613aee
     permissions:
+    - essentials.balance
+    - essentials.balancetop
+    - essentials.delhome
+    - essentials.delwarp
+    - essentials.help
+    - essentials.helpop
+    - essentials.home
+    - essentials.ignore
+    - essentials.list
+    - essentials.me
+    - essentials.msg
+    - essentials.msgtoggle
+    - essentials.pay
+    - essentials.ping
+    - essentials.r
+    - essentials.realname
+    - essentials.seen
+    - essentials.sell
+    - essentials.sethome
+    - essentials.setwarp
+    - essentials.suicide
+    - essentials.time
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpdeny
+    - essentials.warp
+    - essentials.whois
+    - essentials.worth
+    - bountyperks.bounty
+    - bountyperks.addbounty
+    - bountyperks.topbounty
+    - bountyperks.mybounty
+    - bountyperks.bountyrank
     - modifyworld.*
     worlds:
       world:
@@ -22,31 +60,37 @@ groups:
   Helper:
     options:
       prefix: '&f[&5Helper&f]&f'
-      rank: '400'
+      rank: '900'
+    permissions:
+    - essentials.afk
+    - essentials.jails
+    - essentials.setjail
+    - essentials.togglejail
+    - essentials.kick
     inheritance:
     - Civilian
   Semi-Moderator:
     options:
       prefix: '&f[&dSemi-Moderator&f]&f'
-      rank: '500'
+      rank: '800'
     inheritance:
     - Helper
   Moderator:
     options:
       prefix: '&f[&eModerator&f]&f'
-      rank: '600'
+      rank: '700'
     inheritance:
     - Semi-Moderator
   Semi-Admin:
     options:
       prefix: '&f[&3Semi-Admin&f]&f'
-      rank: '700'
+      rank: '600'
     inheritance:
     - Moderator
   Admin:
     options:
       prefix: '&f[&1Admin&f]&f'
-      rank: '800'
+      rank: '500'
     inheritance:
     - Semi-Admin
     permissions:
@@ -55,7 +99,7 @@ groups:
   Super-Admin:
     options:
       prefix: '&f[&4Super-Admin&f]&f'
-      rank: '900'
+      rank: '400'
     inheritance:
     - Admin
     permissions:
@@ -64,7 +108,7 @@ groups:
   God:
     options:
       prefix: '&f[&cGod&f]&f'
-      rank: '1000'
+      rank: '300'
     inheritance:
     - Super-Admin
   Pokemon:
