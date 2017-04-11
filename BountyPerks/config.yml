@@ -54,16 +54,16 @@ MobMoney:
   ZombieHorse: 0
   ZombieVillager: 0
 Bounty:
-  zargon_king: 1099998
+  zargon_king: 0
   nightghost2: 0
   spyjay_yt: 6000
   melonketchum: 0
   umbyy: 4000
-  spid0207: 0
+  spid0207: 2000
   hotchilliz: 0
   bloodcorn: 0
   maydayparker: 0
-  demonisef: 4000
+  demonisef: 0
   regner_21: 0
   moosei: 0
   sykaos: 0
@@ -81,3 +81,9 @@ LastKilled:
     umbyy: 04/10/17
   umbyy:
     zargon_king: 04/10/17
+  zargon_king:
+    regner_21: 04/11/17
+    spid0207: 04/11/17
+    zargon_king: 04/11/17
+  spid0207:
+    demonisef: 04/11/17

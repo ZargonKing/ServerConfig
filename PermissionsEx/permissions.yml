@@ -2,13 +2,8 @@ groups:
   Citizen:
     options:
       default: 'true'
-<<<<<<< HEAD
-      prefix: '&f[&7Civilian&f]'
-      rank: '300'
-=======
       prefix: '&f[&7Citizen&f]&f'
       rank: '1000'
->>>>>>> 971c590a242fc379ac56a634f9e3dd586f613aee
     permissions:
     - essentials.balance
     - essentials.balancetop
@@ -111,9 +106,6 @@ groups:
       rank: '300'
     inheritance:
     - Super-Admin
-  Pokemon:
-    options:
-      prefix: '&3[&cPokemon&3]&4'
 schema-version: 1
 users:
   713cae7a-ef6d-4a06-8922-4741459c12bc:
@@ -129,7 +121,6 @@ users:
       world: {}
     options:
       name: Umbyy
-    group: []
   18444ae9-d5f7-4bfa-aded-4bdcaf8a1e0b:
     options:
       name: Demonisef
@@ -152,23 +143,16 @@ users:
       name: MooMooThePirate
   ee6fa23c-2eef-4a1c-95e0-2df5588bf3af:
     group:
-    - Helper
+    - Semi-Moderator
     options:
       name: Spid0207
     permissions:
     - essentials.*
-    - sg.*
+    - essentials.interact.*
   7fb79d98-7f69-47cf-9cb0-18d31100d39a:
     group:
     - Helper
-    permissions:
-    - essentials.*
-    - sg.*
     options:
       name: regner_21
-  4a870d7f-861e-4c2d-8f2f-bc57b93486c9:
     permissions:
     - essentials.*
-    - sg.*
-    options:
-      name: OrcGraid
