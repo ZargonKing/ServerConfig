@@ -1,0 +1,34 @@
+version: 0
+sg-system:
+  arenano: 1
+  arenas:
+    '1':
+      world: HG1
+      x1: 517
+      y1: 143
+      z1: 622
+      x2: -294
+      y2: 67
+      z2: -6
+      enabled: true
+  lobby:
+    spawn:
+      world: pmcspawn
+      x: 7
+      y: 7
+      z: -54
+      yaw: -0.9000071
+      pitch: 7.8000026
+    sign:
+      set: true
+    signno: 1
+    signs:
+      '1':
+        id: 1
+        world: pmcspawn
+        x1: 8
+        y1: 7
+        z1: -51
+        x2: 8
+        y2: 7
+        z2: -51

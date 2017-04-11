@@ -1,0 +1,7 @@
+chat:
+  token: '#'
+  format: '&6STAFF &r> &5%name &r> %chat'
+  sound: true
+enable:
+  TitleManager: false
+enabled: true
