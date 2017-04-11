@@ -32,3 +32,6 @@ sg-system:
         x2: 8
         y2: 7
         z2: -51
+  stats:
+    sign:
+      set: true

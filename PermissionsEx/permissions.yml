@@ -2,7 +2,8 @@ groups:
   Civilian:
     options:
       default: 'true'
-      prefix: '&6[&7Civillian&6]&7'
+      prefix: '&f[&fCivilian&f]&f'
+      rank: '300'
     permissions:
     - modifyworld.*
     worlds:
@@ -18,33 +19,86 @@ groups:
       world_nether:
         options:
           default: 'true'
-          
+  Helper:
+    options:
+      prefix: '&f[&5Helper&f]&f'
+      rank: '400'
+    inheritance:
+    - Civilian
+  Semi-Moderator:
+    options:
+      prefix: '&f[&dSemi-Moderator&f]&f'
+      rank: '500'
+    inheritance:
+    - Helper
+  Moderator:
+    options:
+      prefix: '&f[&eModerator&f]&f'
+      rank: '600'
+    inheritance:
+    - Semi-Moderator
+  Semi-Admin:
+    options:
+      prefix: '&f[&3Semi-Admin&f]&f'
+      rank: '700'
+    inheritance:
+    - Moderator
+  Admin:
+    options:
+      prefix: '&f[&1Admin&f]&f'
+      rank: '800'
+    inheritance:
+    - Semi-Admin
+    permissions:
+    - permissions.user.demote.default
+    - permissions.user.promote.default
+  Super-Admin:
+    options:
+      prefix: '&f[&4Super-Admin&f]&f'
+      rank: '900'
+    inheritance:
+    - Admin
+    permissions:
+    - permissions.user.demote.default
+    - permissions.user.promote.default
+  God:
+    options:
+      prefix: '&f[&cGod&f]&f'
+      rank: '1000'
+    inheritance:
+    - Super-Admin
 schema-version: 1
 users:
   713cae7a-ef6d-4a06-8922-4741459c12bc:
     options:
       name: Zargon_King
-      prefix:
     group:
+    - God
   08a32275-b5a8-3282-9a30-6508b601f7f8:
     options:
       name: Demonisef
   e58af273-6453-47ae-b01d-c05f9210f38c:
     worlds:
-      world:
-        group:
+      world: {}
     options:
       name: Umbyy
-      prefix:
-    permissions:
   18444ae9-d5f7-4bfa-aded-4bdcaf8a1e0b:
     options:
       name: Demonisef
-      prefix:
     group:
+    - God
   spyjay_yt:
-    options:
-      prefix:
+    options: {}
   474707f7-f8b4-43ea-8978-9cae17917e82:
     options:
       name: ThatCraftLife
+  544f8c9c-f07d-45cd-9f24-e93660cb4162:
+    worlds:
+      world:
+        permissions:
+        - sg.*
+        - sg.join.*
+        - essentials.*
+        - modifyworld.*
+    options:
+      name: MooMooThePirate
