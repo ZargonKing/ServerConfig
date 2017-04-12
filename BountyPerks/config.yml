@@ -1,5 +1,5 @@
 AddBountyPerKill: 2000
-PayForMobKills: false
+PayForMobKills: 'true'
 MobKillMessages: true
 BountyLevel:
   rebel: 1000
