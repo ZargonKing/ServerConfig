@@ -21,7 +21,7 @@ packs:
     permission: worldresourcepacks.pack.gamepack
   emptypack:
     url: http://cdn.moep.tv/files/Empty.zip
-    hash: 81ffbd1712afe8cdf138b570c0fc9934742c33c1
+    hash: e5d91e14e9c685b06f00e550d9e189deb2075f76
     format: 0
     restricted: false
     permission: worldresourcepacks.pack.emptypack

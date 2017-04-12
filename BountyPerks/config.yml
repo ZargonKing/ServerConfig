@@ -1,5 +1,5 @@
 AddBountyPerKill: 2000
-PayForMobKills: true
+PayForMobKills: false
 MobKillMessages: true
 BountyLevel:
   rebel: 1000
@@ -12,69 +12,65 @@ BountyLevel:
   hitman: 175000
   mafiaboss: 300000
 MobMoney:
-  Chicken: 0.5
-  Pig: 0.5
-  Cow: 0.5
-  Sheep: 0.5
-  Creeper: 1
-  Skeleton: 0.2
-  Zombie: 0.2
-  Enderman: 0.5
-  Spider: 0.2
-  Bat: 0.8
-  Blaze: 0.2
-  CaveSpider: 0.2
-  ChestedHorse: 0.5
-  Donkey: 0.5
-  ElderGuardian: 500
-  EnderDragon: 500
-  Endermite: 0.5
-  Ghast: 0.5
+  Chicken: 0
+  Pig: 0
+  Cow: 0
+  Sheep: 0
+  Creeper: 20
+  Skeleton: 10
+  Zombie: 10
+  Enderman: 10
+  Spider: 10
+  Bat: 0
+  Blaze: 20
+  CaveSpider: 10
+  ChestedHorse: 0
+  Donkey: 0
+  ElderGuardian: 1000
+  EnderDragon: 1000
+  Endermite: 10
+  Ghast: 50
   Giant: 250
-  Guardian: 50
-  Horse: 0.5
-  IronGolem: 0.5
-  Llama: 0.5
-  MagmaCube: 0.5
-  Mule: 0.5
-  MushroomCow: 0.5
-  Ocelot: 0.5
-  PigZombie: 0.5
-  PolarBear: 0.5
-  Rabbit: 0.5
-  Silverfish: 0.5
-  SkeletonHorse: 0.5
-  Slime: 0.5
-  Snowman: 0.5
-  Squid: 0.5
-  Witch: 2
-  Wither: 500
-  WitherSkeleton: 10
-  Wolf: 0.5
-  ZombieHorse: 0.5
-  ZombieVillager: 0.5
+  Guardian: 100
+  Horse: 0
+  IronGolem: 0
+  Llama: 0
+  MagmaCube: 10
+  Mule: 0
+  MushroomCow: 0
+  Ocelot: 0
+  PigZombie: 10
+  PolarBear: 0
+  Rabbit: 0
+  Silverfish: 10
+  SkeletonHorse: 0
+  Slime: 10
+  Snowman: 0
+  Squid: 0
+  Witch: 30
+  Wither: 1000
+  WitherSkeleton: 30
+  Wolf: 0
+  ZombieHorse: 0
+  ZombieVillager: 0
 Bounty:
   zargon_king: 0
   nightghost2: 0
-  spyjay_yt: 0
+  spyjay_yt: 6000
   melonketchum: 0
   umbyy: 0
   spid0207: 2000
   hotchilliz: 0
   bloodcorn: 0
   maydayparker: 0
-<<<<<<< HEAD
   demonisef: 10000
-=======
-  demonisef: 0
->>>>>>> 9987d981e5fb1e7a5f8d84c8f69b1bc96d2cca42
   regner_21: 0
   moosei: 0
   sykaos: 0
   andreimcu: 0
   solvinq: 0
   _wonderbat_: 0
-  thatcraftlife: 0
+  thatcraftlife: 4000
   agent__cj: 0
   moomoothepirate: 0
   orcgraid: 0
