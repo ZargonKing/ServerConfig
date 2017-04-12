@@ -58,12 +58,12 @@ Bounty:
   nightghost2: 0
   spyjay_yt: 6000
   melonketchum: 0
-  umbyy: 4000
+  umbyy: 0
   spid0207: 2000
   hotchilliz: 0
   bloodcorn: 0
   maydayparker: 0
-  demonisef: 0
+  demonisef: 10000
   regner_21: 0
   moosei: 0
   sykaos: 0
@@ -74,6 +74,8 @@ Bounty:
   agent__cj: 0
   moomoothepirate: 0
   orcgraid: 0
+  night_hawkgamer: 0
+  spidermanmcu: 0
 LastKilled:
   spyjay_yt:
     nightghost2: 04/10/17
@@ -83,7 +85,12 @@ LastKilled:
     zargon_king: 04/10/17
   zargon_king:
     regner_21: 04/11/17
-    spid0207: 04/11/17
-    zargon_king: 04/11/17
+    spid0207: 04/12/17
+    zargon_king: 04/12/17
   spid0207:
     demonisef: 04/11/17
+    umbyy: 04/12/17
+    orcgraid: 04/12/17
+  demonisef:
+    spid0207: 04/12/17
+    zargon_king: 04/12/17

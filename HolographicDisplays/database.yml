@@ -2,3 +2,31 @@ survivalspawn:
   location: world, -56.536, 81.200, -121.595
   lines:
   - '&0&lWelcome &4&lTo &8&lSurvival'
+survivalinforules:
+  location: world, -78.533, 78.200, -117.605
+  lines:
+  - '&3&lRules &b&lAnd &9&lInfo'
+wilderness:
+  location: world, -78.480, 78.200, -126.536
+  lines:
+  - '&5&lTpa &d&lTo &c&lWilderness'
+jail:
+  location: world, -58.472, 72.200, -69.445
+  lines:
+  - '&0&lJail'
+power:
+  location: world, -101.601, 65.200, -32.617
+  lines:
+  - '&4&lP&0&lo&4&lw&0&le&4&lr&0&ls'
+abd:
+  location: world, -124.926, 67.200, -28.025
+  lines:
+  - '&bABC'
+def:
+  location: world, -140.993, 67.200, -26.059
+  lines:
+  - '&b&lDEF'
+jkl:
+  location: world, -141.036, 67.200, -39.075
+  lines:
+  - '&b&lJKL'

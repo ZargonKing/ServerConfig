@@ -1,6 +1,6 @@
 version: 0
 sg-system:
-  arenano: 1
+  arenano: 2
   arenas:
     '1':
       world: HG1
@@ -11,6 +11,24 @@ sg-system:
       y2: 67
       z2: -6
       enabled: true
+    '2':
+      world: HG2
+      x1: 1347
+      y1: 216
+      z1: -1337
+      x2: 145
+      y2: -2
+      z2: -2682
+      enabled: true
+    '3':
+      world: HG2
+      x1: 1269
+      y1: 4
+      z1: -1337
+      x2: 144
+      y2: 4
+      z2: -2490
+      enabled: false
   lobby:
     spawn:
       world: pmcspawn

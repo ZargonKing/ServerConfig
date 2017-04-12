@@ -665,10 +665,10 @@ Abilities:
       ShiftCleanupDelay: 10000
       ClickLavaCleanupDelay: 7000
       ClickLandCleanupDelay: 20000
-      ClickRange: 10.0
-      ShiftRadius: 7.0
+      ClickRange: 100.0
+      ShiftRadius: 10.0
       ShiftPlatformRadius: 1.5
-      ClickRadius: 5.0
+      ClickRadius: 10.0
       ClickLavaCreateSpeed: 0.045
       ClickLandCreateSpeed: 0.1
       ShiftFlowSpeed: 0.01
@@ -761,13 +761,13 @@ Abilities:
         Cooldown: 1000
     Combustion:
       Enabled: true
-      Cooldown: 10000
+      Cooldown: 10
       BreakBlocks: false
       Power: 1.0
-      Damage: 4
-      Radius: 4
-      Range: 35
-      Speed: 25
+      Damage: 9999
+      Radius: 5
+      Range: 1000
+      Speed: 100
     FireBlast:
       Enabled: true
       Speed: 20

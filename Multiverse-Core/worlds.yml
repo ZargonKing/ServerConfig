@@ -1,12 +1,60 @@
 worlds:
-  world_the_end:
+  HG2:
     ==: MVWorld
     hidden: 'false'
-    alias: world_the_end
+    alias: HG2
     color: WHITE
     style: NORMAL
     pvp: 'true'
-    scale: '16.0'
+    scale: '1.0'
+    respawnWorld: ''
+    allowWeather: 'true'
+    difficulty: EASY
+    spawning:
+      ==: MVSpawnSettings
+      animals:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+      monsters:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+    entryfee:
+      ==: MVEntryFee
+      amount: '0.0'
+      currency: '-1'
+    hunger: 'true'
+    autoHeal: 'true'
+    adjustSpawn: 'true'
+    portalForm: ALL
+    gameMode: SURVIVAL
+    keepSpawnInMemory: 'true'
+    spawnLocation:
+      ==: MVSpawnLocation
+      x: 659.0
+      y: 4.0
+      z: -1881.0
+      pitch: 0.0
+      yaw: 0.0
+    autoLoad: 'true'
+    bedRespawn: 'true'
+    worldBlacklist: []
+    environment: NORMAL
+    seed: '-2698008506905428288'
+    generator: 'null'
+    playerLimit: '-1'
+    allowFlight: 'true'
+  HG1:
+    ==: MVWorld
+    hidden: 'false'
+    alias: HG1
+    color: WHITE
+    style: NORMAL
+    pvp: 'true'
+    scale: '1.0'
     respawnWorld: ''
     allowWeather: 'true'
     difficulty: EASY
@@ -42,8 +90,8 @@ worlds:
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
-    environment: THE_END
-    seed: '8596299084681161168'
+    environment: NORMAL
+    seed: '-3027991452472421386'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
@@ -95,14 +143,14 @@ worlds:
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
-  HG1:
+  world_the_end:
     ==: MVWorld
     hidden: 'false'
-    alias: HG1
+    alias: world_the_end
     color: WHITE
     style: NORMAL
     pvp: 'true'
-    scale: '1.0'
+    scale: '16.0'
     respawnWorld: ''
     allowWeather: 'true'
     difficulty: EASY
@@ -138,8 +186,8 @@ worlds:
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
-    environment: NORMAL
-    seed: '-3027991452472421386'
+    environment: THE_END
+    seed: '3839571386486994913'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'

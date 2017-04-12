@@ -4,13 +4,15 @@ GriefPrevention:
     world: -1
     world_nether: -1
     world_the_end: -1
+    HG2: -1
     HG1: -1
     pmcspawn: -1
   Claims:
     Mode:
+      world_the_end: Disabled
       HG1: Survival
       world_nether: Disabled
-      world_the_end: Disabled
+      HG2: Survival
       pmcspawn: Survival
       world: Survival
     PreventTheft: true
@@ -68,6 +70,7 @@ GriefPrevention:
       world: true
       world_nether: true
       world_the_end: true
+      HG2: true
       HG1: true
       pmcspawn: true
     ProtectFreshSpawns: true
