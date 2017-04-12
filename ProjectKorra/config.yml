@@ -761,13 +761,13 @@ Abilities:
         Cooldown: 1000
     Combustion:
       Enabled: true
-      Cooldown: 10000
+      Cooldown: 10
       BreakBlocks: false
       Power: 1.0
-      Damage: 4
-      Radius: 4
-      Range: 35
-      Speed: 25
+      Damage: 9999
+      Radius: 5
+      Range: 1000
+      Speed: 1000
     FireBlast:
       Enabled: true
       Speed: 20
