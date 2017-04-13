@@ -130,12 +130,17 @@ users:
   e58af273-6453-47ae-b01d-c05f9210f38c:
     worlds:
       world: {}
+      HG2:
+        permissions:
+        - '*'
     options:
       name: Umbyy
       suffix: ''
     group:
     - Citizen
-    permissions: []
+    permissions:
+    - essentials.*
+    - '*'
   18444ae9-d5f7-4bfa-aded-4bdcaf8a1e0b:
     options:
       name: Demonisef
