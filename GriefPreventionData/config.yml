@@ -7,9 +7,11 @@ GriefPrevention:
     HG2: -1
     HG1: -1
     pmcspawn: -1
+    survival: -1
   Claims:
     Mode:
       world_the_end: Disabled
+      survival: Survival
       HG1: Survival
       world_nether: Disabled
       HG2: Survival
@@ -73,6 +75,7 @@ GriefPrevention:
       HG2: true
       HG1: true
       pmcspawn: true
+      survival: true
     ProtectFreshSpawns: true
     PunishLogout: true
     CombatTimeoutSeconds: 15

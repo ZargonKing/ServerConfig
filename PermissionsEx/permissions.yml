@@ -189,7 +189,7 @@ users:
       name: MooMooThePirate
   ee6fa23c-2eef-4a1c-95e0-2df5588bf3af:
     group:
-    - Semi-Admin
+    - Admin
     options:
       name: Spid0207
     permissions:

@@ -11,6 +11,26 @@ results:
   lines:
   - '&5&lTime`s'
 powers:
-  location: world, -392.669, 87.200, 33.246
+  location: survival, -214.490, 108.200, -107.567
   lines:
-  - '&0&lP&4&lo&0&lw&4&le&0&lr&4&ls'
+  - '&0&lP&4&lo&8&lw&c&le&l&0&lr&4&ls'
+abc:
+  location: survival, -203.417, 108.200, -112.148
+  lines:
+  - '&b&lABC'
+def:
+  location: survival, -175.478, 108.200, -112.011
+  lines:
+  - '&b&lDEF'
+ghi:
+  location: survival, -147.288, 108.200, -111.965
+  lines:
+  - '&b&lGHI'
+jkl:
+  location: survival, -119.327, 108.200, -111.920
+  lines:
+  - '&b&lJKL'
+mno:
+  location: survival, -91.202, 108.200, -111.874
+  lines:
+  - '&b&lMNO'
