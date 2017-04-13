@@ -38,7 +38,8 @@ groups:
     - bountyperks.mybounty
     - bountyperks.bountyrank
     - essentials.spawn
-    - essentials.sell_hand
+    - essentials.sell.hand
+    - playerskills.skill
     - modifyworld.*
     worlds:
       world:
@@ -82,7 +83,7 @@ groups:
     - essentials.tempban
     - essentials.tphere
     - essentials.togglejail
-    - staffchat.sc
+    - StaffChat.sc
     inheritance:
     - Helper
   Moderator:
