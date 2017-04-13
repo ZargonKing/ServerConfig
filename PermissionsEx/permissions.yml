@@ -114,27 +114,10 @@ groups:
       prefix: '&1&LAdmin &f&L'
       rank: '500'
     permissions:
-    - essentials.enchant
-    - essentials.enderchest
-    - essentials.eco
-    - essentials.exp
-    - essentials.gamemode
-    - essentials.give
-    - essentials.god
-    - essentials.kill
-    - essentials.invsee
-    - essentials.item
-    - essentials.near
-    - essentials.potion
-    - essentials.repair
-    - essentials.spawner
-    - essentials.spawnmob
-    - essentials.workbench
-    inheritance:
-    - Semi-Admin
-    permissions:
     - permissions.user.demote.default
     - permissions.user.promote.default
+    inheritance:
+    - Semi-Admin
   Super-Admin:
     options:
       prefix: '&4&LSuper-Admin &f&L'
