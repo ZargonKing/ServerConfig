@@ -764,10 +764,10 @@ Abilities:
       Cooldown: 10
       BreakBlocks: false
       Power: 1.0
-      Damage: 9999
+      Damage: 999
       Radius: 5
-      Range: 1000
-      Speed: 1000
+      Range: 100
+      Speed: 200
     FireBlast:
       Enabled: true
       Speed: 20
