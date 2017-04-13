@@ -8,7 +8,6 @@ groups:
     - essentials.balance
     - essentials.balancetop
     - essentials.delhome
-    - essentials.delwarp
     - essentials.help
     - essentials.helpop
     - essentials.home
@@ -38,6 +37,8 @@ groups:
     - bountyperks.topbounty
     - bountyperks.mybounty
     - bountyperks.bountyrank
+    - essentials.spawn
+    - essentials.sell_hand
     - modifyworld.*
     worlds:
       world:
@@ -58,34 +59,77 @@ groups:
       rank: '900'
     permissions:
     - essentials.afk
-    - essentials.jails
-    - essentials.setjail
-    - essentials.togglejail
+    - essentials.jail
     - essentials.kick
     inheritance:
-    - Civilian
+    - Citizen
+  VIP:
+    options:
+      prefix: '&b&LVIP &f&L'
+    permissions:
+    - essentials.fly
+    inheritance:
+    - Citizen
   Semi-Moderator:
     options:
       prefix: '&d&LSemi-Moderator &f&L'
       rank: '800'
+    permissions:
+    - essentials.deljail
+    - essentials.tp
+    - essentials.nick
+    - essentials.setjail
+    - essentials.tempban
+    - essentials.tphere
+    - essentials.togglejail
+    - staffchat.sc
     inheritance:
     - Helper
   Moderator:
     options:
       prefix: '&e&LModerator &f&L'
       rank: '700'
+    permissions:
+    - essentials.ban
+    - essentials.unban
+    - essentials.vanish
+    - essentials.mute
     inheritance:
     - Semi-Moderator
   Semi-Admin:
     options:
       prefix: '&3&LSemi-Admin &f&L'
       rank: '600'
+    permissions:
+    - essentials.banip
+    - essentials.unbanip
+    - essentials.fly
+    - essentials.heal
+    - essentials.tpall
+    - essentials.world
     inheritance:
     - Moderator
   Admin:
     options:
       prefix: '&1&LAdmin &f&L'
       rank: '500'
+    permissions:
+    - essentials.enchant
+    - essentials.enderchest
+    - essentials.eco
+    - essentials.exp
+    - essentials.gamemode
+    - essentials.give
+    - essentials.god
+    - essentials.kill
+    - essentials.invsee
+    - essentials.item
+    - essentials.near
+    - essentials.potion
+    - essentials.repair
+    - essentials.spawner
+    - essentials.spawnmob
+    - essentials.workbench
     inheritance:
     - Semi-Admin
     permissions:
