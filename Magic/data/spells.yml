@@ -59,7 +59,7 @@ silence:
   cast_count: 0
   last_cast: 0
 homing:
-  cast_count: 0
+  cast_count: 3
   last_cast: 0
 magichat:
   cast_count: 0
@@ -191,7 +191,7 @@ railgun:
   cast_count: 0
   last_cast: 0
 meteor:
-  cast_count: 0
+  cast_count: 1
   last_cast: 0
 familiar:
   cast_count: 0
@@ -206,13 +206,13 @@ pull:
   cast_count: 0
   last_cast: 0
 torture:
-  cast_count: 0
+  cast_count: 5
   last_cast: 0
 superlaser:
   cast_count: 0
   last_cast: 0
 cloak:
-  cast_count: 0
+  cast_count: 1
   last_cast: 0
 glide:
   cast_count: 0
@@ -266,7 +266,7 @@ neutron:
   cast_count: 0
   last_cast: 0
 missile:
-  cast_count: 0
+  cast_count: 1
   last_cast: 0
 fillwand:
   cast_count: 0
@@ -323,7 +323,7 @@ testdummy:
   cast_count: 0
   last_cast: 0
 boon:
-  cast_count: 0
+  cast_count: 1
   last_cast: 0
 blind:
   cast_count: 0
@@ -833,7 +833,7 @@ note20:
   cast_count: 0
   last_cast: 0
 chainlightning:
-  cast_count: 0
+  cast_count: 2
   last_cast: 0
 airscooter:
   cast_count: 0

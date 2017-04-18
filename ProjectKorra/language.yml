@@ -389,6 +389,9 @@ Abilities:
         Description: FastSwim is a passive ability for waterbenders allowing them to travel quickly through the water. Simple hold shift while underwater to propel yourself forward.
       Hydrosink:
         Description: Hydrosink is a passive ability for waterbenders enabling them to softly land on any waterbendable surface, cancelling all damage.
+    Blizzard:
+      DeathMessage: '{victim} shivered to death from {attacker}''s {ability}!'
+      Description: The coolest move in a waterbender's arsenal, this allows the bender to freeze an entire area of enemies.
   Earth:
     Catapult:
       Description: Catapult is an advanced earthbending ability that allows you to forcefully push yourself using earth, reaching great heights. This technique is best used when travelling, but it can also be used to quickly escape a battle.

@@ -1,0 +1,7 @@
+Abilities:
+  MagmaLine:
+    MaxLength: 25
+    RevertTime: 10
+    SourceRadius: 4
+    Cooldown: 4000
+    Controllable: true

@@ -1,0 +1,31 @@
+ExtraAbilities:
+  Loony:
+    SpiritualProjection:
+      Cooldown: 30000
+      Meditate:
+        Cooldown: 6000
+        Duration: 10000
+        EnergyAmount: 1
+      Spirit:
+        Enabled: true
+        SpiritTransfer: true
+        Cooldown: 2000
+        Speed: 0.6
+        Duration: 6000
+        SpiritualEnergy: 20
+      AstralAttack:
+        Enabled: true
+        Duration: 6000
+        Speed: 0.8
+        Cooldown: 3000
+        Damage: 6.0
+        Knockback: 4.0
+        BlastRadius: 2.0
+        SpiritualEnergy: 35
+      SpiritualDrain:
+        Enabled: true
+        Cooldown: 15000
+        Range: 20
+        DrainSpeed: 0.8
+        DrainedDuration: 5500
+        SpiritualEnergy: 45

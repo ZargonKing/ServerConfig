@@ -761,13 +761,13 @@ Abilities:
         Cooldown: 1000
     Combustion:
       Enabled: true
-      Cooldown: 10
+      Cooldown: 10000
       BreakBlocks: false
       Power: 1.0
-      Damage: 999
-      Radius: 5
-      Range: 100
-      Speed: 200
+      Damage: 4
+      Radius: 4
+      Range: 35
+      Speed: 25
     FireBlast:
       Enabled: true
       Speed: 20
@@ -960,3 +960,41 @@ Storage:
     db: minecraft
     user: root
 debug: false
+ExtraAbilities:
+  AK4:
+    FireSwords:
+      Cooldown: 40000
+      Duration: 10000
+      Damage: 1
+  StrangeOne101:
+    LavaArms:
+      Cooldown: 60000
+      Duration: 60000
+  xNuminousx:
+    FireJab:
+      Cooldown: 5000
+      Range: 10
+      Speed: 1.2
+      Damage: 5
+      Controllable: true
+      Ignite: true
+      FireTicks: 2
+  EmeraldJelly:
+    Air:
+      CloudBurst:
+        Damage: 6
+        Range: 45
+        Cooldown: 3000
+        KnockBack: 1.5
+        ChargeTime: 6000
+        CoolLava: true
+  Sobki:
+    ShadowSuit:
+      Cooldown: 4500
+      MaxDuration: 30000
+AddonAbilities:
+  ArchBear_Vega:
+    Blizzard:
+      Cooldown: 0
+      Radius: 0
+      Duration: 0

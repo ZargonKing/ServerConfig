@@ -54,16 +54,16 @@ MobMoney:
   ZombieHorse: 0
   ZombieVillager: 0
 Bounty:
-  zargon_king: -193967296
+  zargon_king: 0
   nightghost2: 0
-  spyjay_yt: 6000
+  spyjay_yt: 8000
   melonketchum: 0
   umbyy: 0
-  spid0207: 2000
+  spid0207: 0
   hotchilliz: 0
   bloodcorn: 0
   maydayparker: 0
-  demonisef: 10000
+  demonisef: 0
   regner_21: 0
   moosei: 0
   sykaos: 0
@@ -76,21 +76,48 @@ Bounty:
   orcgraid: 0
   night_hawkgamer: 0
   spidermanmcu: 0
+  hirati: 0
+  jdroppert: 0
+  alfiemc007: 0
+  melonjqueen: 0
+  bajanmessiah: 0
+  emmettgaming: 0
+  batman_dcu: 0
+  toofluffy: 0
+  fanawtik: 0
+  adambash: 0
+  factions_god: 0
+  flamesyoutube: 0
+  wethemineguy: 0
+  itsmefray: 0
+  god_doesnt_exist: 0
+  dafunkymunke: 0
 LastKilled:
   spyjay_yt:
     nightghost2: 04/10/17
     zargon_king: 04/10/17
     umbyy: 04/10/17
+    adambash: 04/17/17
   umbyy:
     zargon_king: 04/10/17
   zargon_king:
     regner_21: 04/11/17
     spid0207: 04/12/17
     zargon_king: 04/12/17
+    demonisef: 04/13/17
+    sykaos: 04/16/17
+    adambash: 04/16/17
+    itsmefray: 04/18/17
   spid0207:
     demonisef: 04/11/17
     umbyy: 04/12/17
-    orcgraid: 04/12/17
+    orcgraid: 04/17/17
   demonisef:
     spid0207: 04/12/17
     zargon_king: 04/12/17
+  sykaos:
+    zargon_king: 04/16/17
+  adambash:
+    zargon_king: 04/16/17
+  itsmefray:
+    zargon_king: 04/18/17

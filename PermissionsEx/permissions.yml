@@ -5,6 +5,11 @@ groups:
       prefix: '&7&LCitizen &f&L'
       rank: '1000'
     permissions:
+    - essentials.afk.auto
+    - essentials.afk
+    - essentials.list
+    - essentials.kit
+    - essentials.modifyworld.*
     - essentials.balance
     - essentials.balancetop
     - essentials.delhome
@@ -23,7 +28,6 @@ groups:
     - essentials.seen
     - essentials.sell
     - essentials.sethome
-    - essentials.setwarp
     - essentials.suicide
     - essentials.time
     - essentials.tpa
@@ -40,7 +44,6 @@ groups:
     - essentials.spawn
     - essentials.sell.hand
     - playerskills.skill
-    - modifyworld.*
     worlds:
       world:
         options:
@@ -144,6 +147,11 @@ groups:
       prefix: '&7&k&o|&0&LOC&8&LOwner&7&k&o|&f&L '
     inheritance:
     - God
+  Trusted:
+    inheritance:
+    - VIP
+    options:
+      prefix: '&5&LTrusted &d&L'
 schema-version: 1
 users:
   713cae7a-ef6d-4a06-8922-4741459c12bc:
@@ -152,6 +160,8 @@ users:
       prefix: '&7&k&o|&9&LOwner&7&k&o|&f&L '
     group:
     - God
+    permissions:
+    - worldedit.*
   08a32275-b5a8-3282-9a30-6508b601f7f8:
     options:
       name: Demonisef
@@ -173,20 +183,7 @@ users:
     options:
       name: Demonisef
     group:
-    - God
-  474707f7-f8b4-43ea-8978-9cae17917e82:
-    options:
-      name: ThatCraftLife
-  544f8c9c-f07d-45cd-9f24-e93660cb4162:
-    worlds:
-      world:
-        permissions:
-        - sg.*
-        - sg.join.*
-        - essentials.*
-        - modifyworld.*
-    options:
-      name: MooMooThePirate
+    - Semi-Moderator
   ee6fa23c-2eef-4a1c-95e0-2df5588bf3af:
     group:
     - Admin
@@ -216,3 +213,29 @@ users:
     - worldedit.*
     options:
       name: OrcGraid
+  52042d75-faf5-43ef-980c-e28b650b5dfe:
+    permissions:
+    - essentials.*
+    - essentials.interact.*
+  222c7f9b-6d5f-4e7c-9715-f17dba22a8c7:
+    permissions:
+    - essentials.thru
+    options:
+      name: Batman_DCU
+  4087bc7f-c213-47df-bf2d-41650030be45:
+    permissions:
+    - sg.*
+    options:
+      name: adambash
+  da4db28f-13e4-3267-a943-239c31e4ee80:
+    options:
+      name: Zargon_King
+  d0af3c11-39e1-4c6f-9ae5-7d89aa3682cf:
+    permissions:
+    - essentials.modifyworld.*
+    - essentials.*
+    - sg.*
+    - sg.join
+    - essentials.fly
+    options:
+      name: ItsMeFray

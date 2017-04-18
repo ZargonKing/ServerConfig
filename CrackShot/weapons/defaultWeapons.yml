@@ -426,3 +426,649 @@ AK-47:
     Hit_Events:
         Enable: true
         Sounds_Shooter: SHOOT_ARROW-1-2-0
+        Energy blast:
+    Item_Information:
+        Item_Name: "&6&l[Energy Blast]"
+        Item_Type: 77
+        Item_Lore: "&eEnergy from the sun"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+        Normal: "&b<shooter> &3shot &b<victim>&3 using a &6&lEnergy Blast"
+    Shooting:
+        Right_Click_To_Shoot: true
+        Delay_Between_Shots: 0
+        Recoil_Amount: 4
+        Projectile_Amount: 1
+        Projectile_Type: energy
+        Projectile_Subtype: 75-10-30-5
+        Projectile_Speed: 17
+        Projectile_Damage: 26
+        Sounds_Shoot: WITHER_SHOOT-1-2-0,ZOMBIE_WOODBREAK-1-2-0,FIZZ-0-2-0,FUSE-0-2-0,ENDERMAN_TELEPORT-2-1-0,ENDERMAN_TELEPORT-2-2-2
+        Projectile_Incendiary:
+            Enable: false
+            Duration: 150
+    Burstfire:
+        Enable: false
+        Shots_Per_Burst: 1
+        Delay_Between_Shots_In_Burst: 1
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Reload:
+        Enable: true
+        Reload_Amount: 5
+        Reload_Duration: 40
+        Sounds_Reloading: ZOMBIE_UNFECT-1-1-10,ZOMBIE_UNFECT-1-0-20,ZOMBIE_INFECT-1-1-35
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: explosion
+        Particle_Hit: block_break-133, block_break-7, FLAMES-10
+        Particle_Impact_Anything: block_break-7, block_break-7
+        Particle_Player_Shoot: explosion,smoke-5
+    Hit_Events:
+        Enable: true
+        Sounds_Impact: ZOMBIE_REMEDY-1-2-0,FIZZ-0-2-0,FUSE-0-2-0,ENDERMAN_TELEPORT-2-1-0,ENDERMAN_TELEPORT-2-2-2
+        Sounds_Victim: ZOMBIE_METAL-1-2-0
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 1
+        Explosion_Delay: 0
+        On_Impact_With_Anything: true
+        Enable_Owner_Immunity: false
+        Sounds_Explode: ZOMBIE_METAL-2-3-2
+
+HeatVision:
+    Item_Information:
+        Item_Name: "&4&l[HeatVision]"
+        Item_Type: 377
+        Item_Lore: "The Power Of Thermal Energy"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 0
+        Recoil_Amount: 0.25
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Removal_Or_Drag_Delay: 4-false
+        Projectile_Speed: 75
+        Projectile_Damage: 3
+        Projectile_Flames: true
+        Projectile_Incendiary:
+            Enable: true
+            Duration: 80
+        Bullet_Spread: 1.50
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENTITY_ARROW_HIT
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 8
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 1.50
+    Reload:
+        Enable: true
+        Reload_Amount: 100
+        Reload_Bullets_Individually: true
+        Reload_Duration: 0
+        Sounds_Reloading: NOTE_STICKS-1-1-0,NOTE_SNARE_DRUM-1-6-1
+    Firearm_Action:
+        Type: break
+        Open_Duration: 10
+        Close_Duration: 15
+        Sound_Open: DOOR_OPEN-1-2-0
+        Sound_Close: DOOR_CLOSE-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+    Damage_Based_On_Flight_Time:
+        Enable: true
+        Bonus_Damage_Per_Tick: -1
+        Maximum_Damage: -4
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: smoke-1,flames-1
+        Particle_Impact_Anything: BLOCK_BREAK-152
+
+Jetpack:
+    Item_Information:
+        Item_Name: "&eJetpack"
+        Item_Type: 288
+        Item_Lore: "&eRight-Click to use."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Delay_Between_Shots: 1
+        Recoil_Amount: -10
+        Projectile_Amount: 0
+        Projectile_Type: snowball
+        Projectile_Speed: 1
+        Projectile_Damage: 0
+        Bullet_Spread: 3
+        Sounds_Shoot: GHAST_FIREBALL-2-2-2
+    Reload:
+        Enable: true
+        Reload_Amount: 100
+        Reload_Bullets_Individually: false
+        Take_Ammo_On_Reload: true
+        Reload_Duration: 20
+        Sounds_Out_Of_Ammo: CLICK-1-1-0
+        Sounds_Reloading: FIRE_IGNITE-2-2-38
+    Firearm_Action:
+        Type: revolver
+        Open_Duration: 5
+        Close_Duration: 5
+        Sound_Open: DOOR_OPEN-2-2-0
+        Sound_Close: DOOR_CLOSE-2-2-0
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: smoke
+    Abilities:
+        No_Fall_Damage: true
+        
+Energy blast:
+    Item_Information:
+        Item_Name: "&6&l[Energy Blast]"
+        Item_Type: 77
+        Item_Lore: "&eEnergy from the sun"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+        Normal: "&b<shooter> &3shot &b<victim>&3 using a &6&lEnergy Blast"
+    Shooting:
+        Right_Click_To_Shoot: true
+        Delay_Between_Shots: 0
+        Recoil_Amount: 4
+        Projectile_Amount: 1
+        Projectile_Type: energy
+        Projectile_Subtype: 75-10-30-5
+        Projectile_Speed: 17
+        Projectile_Damage: 26
+        Sounds_Shoot: WITHER_SHOOT-1-2-0,ZOMBIE_WOODBREAK-1-2-0,FIZZ-0-2-0,FUSE-0-2-0,ENDERMAN_TELEPORT-2-1-0,ENDERMAN_TELEPORT-2-2-2
+        Projectile_Incendiary:
+            Enable: false
+            Duration: 150
+    Burstfire:
+        Enable: false
+        Shots_Per_Burst: 1
+        Delay_Between_Shots_In_Burst: 1
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Reload:
+        Enable: true
+        Reload_Amount: 5
+        Reload_Duration: 40
+        Sounds_Reloading: ZOMBIE_UNFECT-1-1-10,ZOMBIE_UNFECT-1-0-20,ZOMBIE_INFECT-1-1-35
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: explosion
+        Particle_Hit: block_break-133, block_break-7, FLAMES-10
+        Particle_Impact_Anything: block_break-7, block_break-7
+        Particle_Player_Shoot: explosion,smoke-5
+    Hit_Events:
+        Enable: true
+        Sounds_Impact: ZOMBIE_REMEDY-1-2-0,FIZZ-0-2-0,FUSE-0-2-0,ENDERMAN_TELEPORT-2-1-0,ENDERMAN_TELEPORT-2-2-2
+        Sounds_Victim: ZOMBIE_METAL-1-2-0
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 1
+        Explosion_Delay: 0
+        On_Impact_With_Anything: true
+        Enable_Owner_Immunity: false
+        Sounds_Explode: ZOMBIE_METAL-2-3-2
+        
+        Jetpack:
+    Item_Information:
+        Item_Name: "&eJetpack"
+        Item_Type: 288
+        Item_Lore: "&eRight-Click to use."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Delay_Between_Shots: 1
+        Recoil_Amount: -10
+        Projectile_Amount: 0
+        Projectile_Type: snowball
+        Projectile_Speed: 1
+        Projectile_Damage: 0
+        Bullet_Spread: 3
+        Sounds_Shoot: GHAST_FIREBALL-2-2-2
+    Reload:
+        Enable: true
+        Reload_Amount: 100
+        Reload_Bullets_Individually: false
+        Take_Ammo_On_Reload: true
+        Reload_Duration: 20
+        Sounds_Out_Of_Ammo: CLICK-1-1-0
+        Sounds_Reloading: FIRE_IGNITE-2-2-38
+    Firearm_Action:
+        Type: revolver
+        Open_Duration: 5
+        Close_Duration: 5
+        Sound_Open: DOOR_OPEN-2-2-0
+        Sound_Close: DOOR_CLOSE-2-2-0
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: smoke
+    Abilities:
+        No_Fall_Damage: true
+
+gRing:
+    Item_Information:
+        Item_Name: "&2&lGre&a&len&2&lLan&a&ltern&8&lRi&7&lng"
+        Item_Type: 77
+        Item_Lore: "&8&lIts Your Choice"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 18
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 100
+        Projectile_Damage: 35
+        Bullet_Spread: 1
+        Sounds_Shoot: BLOCK_ANVIL_LAND
+    Ammo:
+        Enable: deny
+        Ammo_Item_ID: 289
+    Custom_Death_Message:
+        Normal: "<victim> was Blasted"
+    Reload:
+        Enable: true
+        Reload_Amount: 10
+        Reload_Duration: 13
+        Take_Ammo_On_Reload: true
+        Reload_Bullets_Individually: true
+        Sounds_Reloading: DOOR_OPEN-1-2-5,FIRE_IGNITE-1-2-13
+    Firearm_Action:
+        Type: revolver
+        Open_Duration: 8
+        Close_Duration: 8
+        Sound_Open: DOOR_OPEN-1-2-0
+        Sound_Close: DOOR_CLOSE-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Explosions:
+        Enable: true
+        Knockback: 1
+        Ignite_Victims: 10
+        Damage_Multiplier: 300
+        Enable_Owner_Immunity: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 5
+        Explosion_Incendiary: true
+        Explosion_Delay: 0
+        On_Impact_With_Anything: true
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: block_break-133
+        Particle_Impact_Anything: block_break-133
+        Particle_Hit: smoke
+        Particle_Headshot: block_break-133
+        Particle_Critical: block_break-133
+        Particle_Backstab: block_break-133
+        
+        yRing:
+    Item_Information:
+        Item_Name: "&e&LYellow&8&lRi&7&lng"
+        Item_Type: 77
+        Item_Lore: "&8&lIts Your Choice"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 18
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 50
+        Projectile_Damage: 35
+        Bullet_Spread: 1
+        Sounds_Shoot: BLOCK_ANVIL_LAND
+    Ammo:
+        Enable: deny
+        Ammo_Item_ID: 289
+    Custom_Death_Message:
+        Normal: "<victim> was Blasted"
+    Reload:
+        Enable: true
+        Reload_Amount: 10
+        Reload_Duration: 13
+        Take_Ammo_On_Reload: true
+        Reload_Bullets_Individually: true
+        Sounds_Reloading: DOOR_OPEN-1-2-5,FIRE_IGNITE-1-2-13
+    Firearm_Action:
+        Type: revolver
+        Open_Duration: 8
+        Close_Duration: 8
+        Sound_Open: DOOR_OPEN-1-2-0
+        Sound_Close: DOOR_CLOSE-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Explosions:
+        Enable: true
+        Knockback: 1
+        Ignite_Victims: 10
+        Damage_Multiplier: 300
+        Enable_Owner_Immunity: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 5
+        Explosion_Incendiary: true
+        Explosion_Delay: 0
+        On_Impact_With_Anything: true
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: block_break-11,flames-1
+        Particle_Impact_Anything: block_break-11
+        Particle_Hit: smoke
+        Particle_Headshot: block_break-11
+        Particle_Critical: block_break-11
+        Particle_Backstab: block_break-11
+
+wRing:
+    Item_Information:
+        Item_Name: "&f&lWh&7&lit&f&le&8&lRi&7&lng"
+        Item_Type: 77
+        Item_Lore: "&8&lThe power of All rings"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 0
+        Projectile_Amount: 1
+        Projectile_Type: energy
+        Projectile_Subtype: 75-10-30-5
+        Projectile_Speed: 30
+        Projectile_Damage: 37
+        Bullet_Spread: 1
+        Sounds_Shoot: BLOCK_ANVIL_LAND
+    Ammo:
+        Enable: deny
+        Ammo_Item_ID: 289
+    Custom_Death_Message:
+        Normal: "<victim> was Destroyed by the power of Life"
+    Reload:
+        Enable: true
+        Reload_Amount: 10
+        Reload_Duration: 13
+        Take_Ammo_On_Reload: true
+        Reload_Bullets_Individually: true
+        Sounds_Reloading: DOOR_OPEN-1-2-5,FIRE_IGNITE-1-2-13
+    Firearm_Action:
+        Type: revolver
+        Open_Duration: 8
+        Close_Duration: 8
+        Sound_Open: DOOR_OPEN-1-2-0
+        Sound_Close: DOOR_CLOSE-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Explosions:
+        Enable: true
+        Knockback: 1
+        Ignite_Victims: 10
+        Damage_Multiplier: 300
+        Enable_Owner_Immunity: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 5
+        Explosion_Incendiary: true
+        Explosion_Delay: 0
+        On_Impact_With_Anything: true
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: block_break-155,block_break:35
+        Particle_Impact_Anything: block_break-155
+        Particle_Hit: smoke
+        Particle_Headshot: block_break-155
+        Particle_Critical: block_break-155
+        Particle_Backstab: block_break-155
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Victim: CONFUSION-180-3
+        
+        bRing:
+    Item_Information:
+        Item_Name: "&8&lBl&7&lac&8&lk&8&lRi&7&lng"
+        Item_Type: 77
+        Item_Lore: "&8&lThe power of Death"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 19
+        Projectile_Amount: 4
+        Projectile_Type: snowball
+        Projectile_Speed: 100
+        Projectile_Damage: 36
+        Bullet_Spread: 1
+        Sounds_Shoot: BLOCK_ANVIL_LAND
+    Ammo:
+        Enable: deny
+        Ammo_Item_ID: 289
+    Custom_Death_Message:
+        Normal: "<victim> was Destroyed by the power of Life"
+    Reload:
+        Enable: true
+        Reload_Amount: 10
+        Reload_Duration: 13
+        Take_Ammo_On_Reload: true
+        Reload_Bullets_Individually: true
+        Sounds_Reloading: DOOR_OPEN-1-2-5,FIRE_IGNITE-1-2-13
+    Firearm_Action:
+        Type: revolver
+        Open_Duration: 8
+        Close_Duration: 8
+        Sound_Open: DOOR_OPEN-1-2-0
+        Sound_Close: DOOR_CLOSE-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Explosions:
+        Enable: true
+        Knockback: 1
+        Ignite_Victims: 10
+        Damage_Multiplier: 300
+        Enable_Owner_Immunity: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 5
+        Explosion_Incendiary: true
+        Explosion_Delay: 0
+        On_Impact_With_Anything: true
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: block_break-1,block_break:7
+        Particle_Impact_Anything: block_break-155
+        Particle_Hit: smoke
+        Particle_Headshot: block_break-7
+        Particle_Critical: block_break-7
+        Particle_Backstab: block_break-7
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Victim: CONFUSION-180-3
+        
+        ShazamBlast:
+    Item_Information:
+        Item_Name: "&e&lShazamBlast"
+        Item_Type: 266
+        Item_Lore: "&8&lPower Of Shazam HimSelf"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 6
+        Projectile_Amount: 5
+        Projectile_Type: snowball
+        Projectile_Speed: 100
+        Projectile_Damage: 37
+        Bullet_Spread: 3
+        Sounds_Shoot: BLOCK_ANVIL_LAND
+    Ammo:
+        Enable: deny
+        Ammo_Item_ID: 289
+    Custom_Death_Message:
+        Normal: "<victim> was energy flared"
+    Reload:
+        Enable: true
+        Reload_Amount: 10
+        Reload_Duration: 13
+        Take_Ammo_On_Reload: true
+        Reload_Bullets_Individually: true
+        Sounds_Reloading: DOOR_OPEN-1-2-5,FIRE_IGNITE-1-2-13
+    Firearm_Action:
+        Type: revolver
+        Open_Duration: 8
+        Close_Duration: 8
+        Sound_Open: DOOR_OPEN-1-2-0
+        Sound_Close: DOOR_CLOSE-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Explosions:
+        Enable: true
+        Knockback: 3
+        Ignite_Victims: 10
+        Damage_Multiplier: 300
+        Enable_Owner_Immunity: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 5
+        Explosion_Incendiary: true
+        Explosion_Delay: 0
+        On_Impact_With_Anything: true
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: block_break-41
+        Particle_Impact_Anything: block_break-41
+        Particle_Hit: Lightning
+        Particle_Headshot: block_break-41
+        Particle_Critical: block_break-41
+        Particle_Backstab: block_break-41
+        
+        Flashbolt:
+    Item_Information:
+        Item_Name: "&4Flash&6Bolt"
+        Item_Type: 377
+        Item_Lore: "Throw a Lightning bolt Out Of your Path"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Dual_Wield: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1
+        Recoil_Amount: 3
+        Projectile_Amount: 1
+        Projectile_Type: egg
+        Projectile_Speed: 60
+        Projectile_Damage: 45
+        Bullet_Spread: 1
+        Sounds_Shoot: ZOMBIE_WOOD-1-2-0,ZOMBIE_WOOD-1-0-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.75
+    Reload:
+        Enable: true
+        Reload_Amount: 8
+        Reload_Duration: 35
+        Sounds_Out_Of_Ammo: CLICK-1-1-0
+        Sounds_Reloading: DOOR_OPEN-1-2-4,DOOR_OPEN-1-2-8,DOOR_CLOSE-1-2-23,DOOR_CLOSE-1-2-38
+        Dual_Wield:
+            Single_Reload_Duration: 25
+            Sounds_Single_Reload: DOOR_OPEN-1-2-4,DOOR_CLOSE-1-2-23
+            Sounds_Shoot_With_No_Ammo: CLICK-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Backstab:
+        Enable: true
+        Bonus_Damage: 3
+        Sounds_Shooter: ORB_PICKUP-1-2-0
+    Particles:
+        Enable: true
+        Particle_Backstab: BLOCK_BREAK-55
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+
+Lightning:
+    Item_Information:
+        Item_Name: "&6&lLight&c&lning&b&l"
+        Item_Type: 318
+        Item_Lore: "&b&lOuch Stop Shocking me"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Projectile_Amount: 1
+        Projectile_Type: energy
+        Projectile_Speed: 0
+        Projectile_Subtype: 75-10-30-5
+        Projectile_Damage: 6
+        Bullet_Spread: 0
+        Sounds_Shoot: SILVERFISH_HIT-7-15-0
+    Reload:
+        Enable: true
+        Reload_Amount: 35
+        Reload_Bullets_Individually: false
+        Reload_Duration: 140
+        Sounds_Reloading: IRONGOLEM_THROW-1-2-1
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 8
+    Abilities:
+        Death_No_Drop: true
+        Reset_Hit_Cooldown: true
+    Particles:
+        Enable: true
+        Particle_Hit: BLOCK_BREAK-152
+        
+Batarang:
+    Item_Information:
+        Item_Name: "&7&lBatarnag&6&l"
+        Item_Type: 77
+        Item_Lore: "&bSharp Metal Bat"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Dual_Wield: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 10
+        Recoil_Amount: 2
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 70
+        Projectile_Damage: 19
+        Bullet_Spread: 1
+        Sounds_Shoot: ZOMBIE_WOOD-1-2-0,ZOMBIE_WOOD-1-0-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.75
+    Reload:
+        Enable: true
+        Reload_Amount: 2
+        Reload_Duration: 40
+        Sounds_Out_Of_Ammo: CLICK-1-1-0
+        Sounds_Reloading: DOOR_OPEN-1-2-4,DOOR_OPEN-1-2-8,DOOR_CLOSE-1-2-23,DOOR_CLOSE-1-2-38
+        Dual_Wield:
+            Single_Reload_Duration: 25
+            Sounds_Single_Reload: DOOR_OPEN-1-2-4,DOOR_CLOSE-1-2-23
+            Sounds_Shoot_With_No_Ammo: CLICK-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Backstab:
+        Enable: true
+        Bonus_Damage: 4
+        Sounds_Shooter: ORB_PICKUP-1-2-0
+    Particles:
+        Enable: true
+        Particle_Backstab: BLOCK_BREAK-159
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0

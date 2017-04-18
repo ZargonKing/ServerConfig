@@ -1,11 +1,3 @@
-finishline:
-  location: world, -303.275, 77.200, -60.437
-  lines:
-  - '&b&lFinish &d&lLine'
-start:
-  location: world, -303.640, 77.263, 415.690
-  lines:
-  - '&8&lS&f&lt&8&la&f&lr&8&lt'
 results:
   location: world, -303.422, 79.299, 418.699
   lines:
@@ -34,3 +26,51 @@ mno:
   location: survival, -91.202, 108.200, -111.874
   lines:
   - '&b&lMNO'
+apply:
+  location: survival, -396.655, 65.200, -218.305
+  lines:
+  - '&4&lA&0&lp&c&lp&8&ll&4&ly'
+appinfo:
+  location: pmcspawn, 30.977, 5.200, -269.626
+  lines:
+  - '&4&lApplication &5&lInfo'
+ranks:
+  location: pmcspawn, 15.008, 8.200, -81.341
+  lines:
+  - '&4&lR&8&la&4&ln&8&lk&4&ls'
+warps:
+  location: pmcspawn, 18.148, 8.200, -77.985
+  lines:
+  - '&d&lWarps'
+portals:
+  location: pmcspawn, -2.419, 8.200, -70.536
+  lines:
+  - '&5&lPortals'
+hungergames:
+  location: pmcspawn, 7.466, 8.200, -61.062
+  lines:
+  - '&8&lHunger &c&lGames'
+start:
+  location: survival, -290.693, 101.200, -323.979
+  lines:
+  - '&8&lS&f&lt&8&la&f&lr&8&lt'
+finished:
+  location: survival, -290.545, 100.671, -14.799
+  lines:
+  - '&4&lF&c&li&4&ln&c&li&4&ls&c&lh'
+pvp:
+  location: survival, -338.964, 72.200, 194.358
+  lines:
+  - '&c&lFORTUNE FAVORS THE BRAVE'
+test:
+  location: Powers, 314.804, 6.200, 107.446
+  lines:
+  - '&1&lPowers'
+apps:
+  location: pmcspawn, 27.992, 5.200, -266.628
+  lines:
+  - '&5&lApplications'
+takenchars:
+  location: pmcspawn, 73.287, 5.200, -273.003
+  lines:
+  - '&4&lHere Is All Taken Characters That You Cant Be'
